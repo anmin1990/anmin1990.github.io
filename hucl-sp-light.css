@@ -1,0 +1,1356 @@
+/* ヘッダー部分 */
+/* はてなのグローバルメニューを消す */
+#globalheader-container
+{
+    display: none;
+}
+#container
+{
+    padding-top: 0px;
+    background: #10171E;
+    color: #242527;
+}
+.list-entry-article
+{
+    background: #f0f0f0;
+}
+.list-entry-article .section
+{
+    color: #242527;
+}
+#top-editarea .section
+{
+    width:100%;
+    margin-bottom: 0;
+}
+#header .header-blog-icon
+{
+    display:none;
+}
+#header
+{
+    font-family: 'Noto Serif SC', serif;
+    margin:0;
+    width:100%;
+    padding:15px 0px;
+    background:#4f4f4f;
+    display: none;
+}
+#header #title a
+{
+    color:#ffffff;
+}
+#original-hedder
+{
+    line-height: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.ratio-2_1:before
+{
+    content: "";
+    display: block;
+    padding-top: 50%; /* 4:1 */
+}
+.headder-img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 背景の指定 */
+#original-hedder .bgImg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    animation: bgAnime 77s infinite;   /* 11画像 × 各7s = 77s */
+}
+#original-hedder .bgText
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}
+
+
+/* 段差で背景画像のアニメーションを実行 */
+#original-hedder .src0
+{
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190217/20190217192009.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4; /*stick menu bar < 13*/
+}
+#original-hedder .src0 a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#original-hedder .src1
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004132.jpg);
+	  background-size: cover;
+	  animation-delay: 0s;
+}
+#original-hedder .src2
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004259.jpg);
+	  background-size: cover;
+	  animation-delay: 7s;
+}
+#original-hedder .src3
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004241.jpg);
+	  background-size: cover;
+	  animation-delay: 14s;
+}
+#original-hedder .src4
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004741.jpg);
+	  background-size: cover;
+	  animation-delay: 21s;
+}
+#original-hedder .src5
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004619.jpg);
+	  background-size: cover;
+	  animation-delay: 28s;
+}
+#original-hedder .src6
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004634.jpg);
+	  background-size: cover;
+	  animation-delay: 35s;
+}
+#original-hedder .src7
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004514.jpg);
+	  background-size: cover;
+	  animation-delay: 42s;
+}
+#original-hedder .src8
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004311.jpg);
+	  background-size: cover;
+	  animation-delay: 49s;
+}
+#original-hedder .src9
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004850.jpg);
+	  background-size: cover;
+	  animation-delay: 56s;
+}
+#original-hedder .src10
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004831.jpg);
+	  background-size: cover;
+	  animation-delay: 63s;
+}
+#original-hedder .src11
+{
+	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004725.jpg);
+	  background-size: cover;
+	  animation-delay: 70s;
+}
+@keyframes bgAnime {
+	  0% { opacity: 0; }
+	  7% { opacity: 1; }
+	  11% { opacity: 1; }
+	  18% { opacity: 0; }
+	  100% { opacity: 0; }
+}
+
+/*メニューバー*/
+#menu-bar
+{
+    position: -webkit-sticky;
+    position: sticky;         /* 位置指定の基準点にする */
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    width: 100%;
+    height: 54px;
+    z-index: 13; /*hatena star icon = 11 < 12*/
+    overflow: hidden;
+}
+#menu-bar-dummy
+{
+    position: -webkit-sticky;
+    position: sticky;         /* 位置指定の基準点にする */
+    margin-top: -54px;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    width: 100%;
+    height: 54px;
+    z-index: 4; /*ドロワーメニュー = 5 > 4*/
+    overflow: hidden;
+}
+#menu-bar #menu-img
+{
+    position: absolute;          /* 位置指定 */
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190220/20190220232225.png);
+    background-size: cover;
+    width: 125px;
+    height: 50px;
+    top: 50%;                    /* 親要素の半分下にずらす */
+    left: 5%;                   /* 親要素の半分右にずらす */
+    transform: translateY(-50%);    /* 要素自体の半分、上と左にずらす */
+}
+#menu-bar #menu-img a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu-barWrap,
+.menu-bar
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu-bar_logo
+{
+    padding: 0 0 0 15px;
+    width: 171px;
+    height: 100%;
+    line-height: 50px;
+    color: #f0f0f0;
+}
+.menu-bar_logo a
+{
+    color: #f0f0f0;
+}
+.menu-bar_logoWrap {
+    height: 100%;
+}
+.menu-bar
+{
+    max-width: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.menu-bar li
+{
+    margin-left: 30px;
+}
+.menu-bar li:first-child
+{
+    margin-left: 0;
+}
+.menu-bar li a
+{
+    display: block;
+    line-height: 48px;
+}
+#js-menuBk /*背景をタップするとメニューを閉じる*/
+{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
+#js-closeBtnWrap
+{
+    display: none;
+}
+#js-openBtn
+{
+    display: none;
+}
+.menuClose
+{
+    display: inline-block;
+    position: relative;
+    padding: 13px;
+    font-size: 22px;
+    left: 85%;
+}
+@media screen and (max-width: 1100px) {
+    .header__leadWrap
+    {
+        padding: 0 10px;
+    }
+    .headerNav li
+    {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #header
+    {
+        position: relative;
+    }
+    .menu-barWrap {
+        display: block;
+        height: 100%;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar_logo img {
+        width: 124px;
+    }
+    #js-closeBtnWrap {
+        position: sticky;
+        top: 0;
+        display: block;
+        background: #fff;
+        background: linear-gradient(-135deg, #2b5876, #4e4376);
+    }
+    #js-openBtn
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 18px;
+        margin: auto;
+        padding: 8px 18px 17px 14px;
+        font-size: 22px;
+        color: #f0f0f0;
+    }
+    #js-spNav {
+        position: fixed;
+        z-index: 12;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 85%;
+        background: #f0f0f0;
+        transform: translateX(100%);
+        transition: all .4s;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #js-spNav.isOpen {
+        transform: translateX(0);
+    }
+}
+#menu-title
+{
+    position: relative;
+    display: inline-block;
+    left: 15%;
+}
+#menu-search-box
+{
+    position: sticky;
+    top: 53px;
+}
+#original-search-box .search-form .search-module-button
+{
+    background: transparent url(/images/theme/search@2x.png?version=101ce7d…) no-repeat 100%;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    -moz-opacity: .5;
+    opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    border: 0;
+}
+#original-search-box > .search-form
+{
+    margin: 13px auto;
+    padding: 0;
+    width: 95%;
+    background-color: #f0f0f0;
+}
+#menu-box > .hatena-module
+{
+    margin-bottom: .5em;
+}
+#menu-contents
+{
+    width: 95%;
+    margin: 3px auto;
+}
+.hidden
+{
+    visibility: hidden;
+}
+.visible
+{
+    visibility: visible;
+}
+.scroll-prevent
+{
+    /*動き固定*/
+    overflow: hidden;
+    /*下2つで背景を元のサイズのまま表示することができる*/
+    width: 100%;
+    height: 100%;
+}
+
+/* 記事一覧（日付・も含む） */
+.list-entry-article, .entry-list a:first-child .list-entry-article
+{
+    border: 1px solid #333;
+    margin: 0px 3px 7px;
+}
+.list-entry-article .thumb-image
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 0em;
+    border: solid 1px #333;
+}
+.list-entry-article .date, .date
+{
+    font-family: 'Exo', sans-serif;
+    display:block;
+    font-style:italic;
+    font-size:0.9em;
+    padding:0px 5px 5px;
+    margin:0px 0px 5px;
+    border-bottom:1px solid #333;
+}
+.list-entry-article .entry-footer
+{
+    display:inline-block;
+    padding:3px;
+    border-radius:3px;
+    background:#1d3557;
+    color:#fff;
+}
+.list-entry-article .section
+{
+    color: #242527;
+}
+.entry-list
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.entry-header.section
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* カテゴリ */
+.categories
+{
+    margin: 5px 0px;
+}
+.categories .blogicon-folder:before
+{
+    content: "";
+}
+.categories a
+{
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
+    background: #1d3557;
+    color: #fff;
+    font-size: 0.9em;
+}
+.categories.is-category-top
+{
+    display: none;
+}
+
+
+/*目次*/
+ul.table-of-contents
+{
+    background: #f0f0f0; /*背景色*/
+    border: solid 0.5px #4f4f4f;
+    padding: 0.5em;
+    margin: 1.5em 0em;
+}
+.table-of-contents:before
+{
+    content: "お　品　書　き";
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: dotted 2px #4f4f4f; /*命題と目次の間の線*/
+}
+.table-of-contents li
+{
+    margin-left: 2em;
+}
+.table-of-contents a:link
+{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.table-of-contents a:hover
+{
+    text-decoration: underline;
+}
+
+/*本文*/
+p::selection, p::-moz-selection
+{
+    background: #4f4f4f;
+    color:#fff
+}
+
+/*見出し*/
+.entry-content h2
+{
+    color: #000000;/*文字色*/
+    border: solid 1px #4f4f4f;/*線色*/
+    padding: 0.5em;/*文字周りの余白*/
+    background: #f0f0f0;
+    border-radius: 0.25em;/*角丸*/
+}
+.entry-content h3
+{
+    padding: 4px 10px;
+    color: #000000;
+    background: #f0f0f0;
+    border-left: 8px solid #00008b;
+    border-right: 8px solid #00008b;
+    border-bottom: 1px solid #00008b;
+    border-radius: 5%;
+}
+.entry-content h4
+{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #000000;/*文字色*/
+    background: #f0f0f0;
+    border-left: solid 6px #8b0000;/*左線*/
+    border-right: solid 6px #8b0000;
+    border-bottom: 1px solid #8b0000;
+    border-radius: 10%;
+}
+.entry-content h5
+{
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #000000;/*文字色*/
+    background: #f0f0f0;
+    border-left: solid 4px #006400;/*左線*/
+    border-right: solid 4px #006400;/*左線*/
+    border-radius: 15%;
+}
+/*引用*/
+.entry-content blockquote
+{
+    position: relative;
+    border-left: 0;
+    padding: 10px 10px 10px 32px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #464646;
+    background: #e0e0e0;
+}
+.entry-content blockquote:before
+{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    font-family: "Font Awesome 5 Free";
+    content: "\f10d";
+    color: #e0e0e0;
+    font-size: 22px;
+    line-height: 1;
+    z-index: 2;
+    font-weight: 900;
+}
+.entry-content blockquote:after
+{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    border-width: 0 0 40px 40px;
+    border-style: solid;
+    border-color: transparent #ffffff;
+}
+.entry-content blockquote p
+{
+    position: relative;
+    padding: 0;
+    margin: 10px 0;
+    z-index: 3;
+    line-height: 1.7;
+}
+blockquote cite
+{
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+/*注意*/
+.entry-content .caution
+{
+    border-radius: 5px;
+    border: 2px solid #FF8C00;
+    background-color: #FFC680;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+/*警告*/
+.entry-content .warning
+{
+    border-radius: 5px;
+    border: 2px solid #ff0000;
+    background-color: #FA817D;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+/*チェック*/
+.entry-content .check
+{
+    border-radius: 5px;
+    border: 2px solid #00BFFF;
+    background-color: #66ffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+/*コード*/
+.entry-content pre
+{
+    font-size: 80% !important;
+    line-height: 1.25em !important;
+    border: 1px solid #dddddd !important;
+    margin: 0 0 10px !important;
+    padding: 10px !important;
+    white-space: pre !important;
+    color: #ffffff !important;
+    background-color: #4f4f4f !important;
+}
+.entry-content code
+{
+    font-size: 90%;
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
+}
+/*画像脚注*/
+.figure-image figcaption
+{
+    font-size: 75%;
+    font-style: italic;
+}
+
+/*スクロールフェードインDown用*/
+.fadeInDown
+{
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+    0%
+    {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+    }
+    100%
+    {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInDown {
+    0%
+    {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100%
+    {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+/*スクロールフェードインDown用 END*/
+
+/*アプリ紹介リンク*/
+.appreach
+{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #7C7C7C;
+    overflow: hidden;
+}
+.appreach:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.appreach p
+{
+    margin: 0;
+}
+.appreach a:after
+{
+    display: none;
+}
+.appreach__icon
+{
+    float: left;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 3% 0 0 !important;
+    width: 25% !important;
+    height: auto !important;
+    max-width: 120px !important;
+}
+.appreach__detail
+{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 72%;
+    max-width: 72%;
+}
+.appreach__detail:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.appreach__name
+{
+    font-size: 16px;
+    line-height: 1.5em !important;
+    max-height: 3em;
+    overflow: hidden;
+}
+.appreach__info
+{
+    font-size: 12px !important;
+}
+.appreach__developper, .appreach__price
+{
+    margin-right: 0.5em;
+}
+.appreach__posted a
+{
+    margin-left: 0.5em;
+}
+.appreach__links
+{
+    float: left;
+    height: 40px;
+    margin-top: 8px;
+    white-space: nowrap;
+}
+.appreach__aslink img
+{
+    margin-right: 10px;
+    height: 40px;
+    width: 135px;
+}
+.appreach__gplink img
+{
+    height: 40px;
+    width: 134.5px;
+}
+
+
+/* 吹き出しのCSS　*/
+.entry-content .l-fuki,
+.entry-content .r-fuki
+{
+    position: relative;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #8f8f8f;
+    box-shadow: 1px 1px 5px #aaa;
+    background-color: #fff;
+    z-index: 1;
+}
+.entry-content .l-fuki
+{
+    margin: 20px 20% 40px 0;
+}
+.entry-content .r-fuki
+{
+    margin: 20px 0 40px 19%;
+}
+.entry-content .l-fuki::before,
+.entry-content .r-fuki::before
+{
+    position: absolute;
+    content: "";
+    top: 16px;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #8f8f8f;
+    border-bottom: 1px solid #8f8f8f;
+    background-color: #fff;
+    z-index: 2;
+}
+.entry-content .l-fuki::before
+{
+    right: -7px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.entry-content .r-fuki::before
+{
+    left: -7px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.entry-content .l-fuki::after,
+.entry-content .r-fuki::after
+{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    top: -10px;
+    border-radius: 40px;
+    border: 1px solid #f0f0f0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 5px #aaa;
+}
+.entry-content .l-fuki::after
+{
+    right: -105px;
+}
+.entry-content .r-fuki::after
+{
+    left: -105px;
+}
+@media screen and (max-width: 620px) {
+    .entry-content .l-fuki,
+    .entry-content .r-fuki
+    {
+        width: 68%
+    }
+    .entry-content .l-fuki
+    {
+        margin-right: 30%;
+    }
+    .entry-content .r-fuki
+    {
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 478px) {
+    .entry-content .l-fuki::after,
+    .entry-content .r-fuki::after
+    {
+
+    }
+    .entry-content .l-fuki::after
+    {
+
+    }
+    .entry-content .r-fuki::after
+    {
+
+    }
+}
+
+/*share-botton*/
+.share-buttons
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.share-buttons .inner a
+{
+    position: relative;
+    display: inline-block;
+    width: 16.5%;
+    height: 45px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding:2px;
+}
+.share-buttons .inner .share-text
+{
+    font-size: 8px;
+}
+.share-buttons .hatena-bookmark-count.share-text
+{
+    font-size: 13px;
+}
+.share-buttons .facebook-count.share-text
+{
+    font-size: 13px;
+}
+.share-count-box
+{
+    height:1.33333em;
+    display:inline-block;
+    text-align:center;
+}
+.share-buttons .inner .hatena-bookmark-button
+{
+    color:#008fde;
+    border:1px solid #008fde;
+}
+.share-buttons .inner .facebook-button
+{
+    color:#305097;
+    border:1px solid #305097;
+}
+.share-buttons .inner .twitter-button
+{
+    color:#55acee;
+    border:1px solid #55acee;
+}
+ .share-buttons .inner .googleplus-button
+{
+    color:#db4a39;
+    border:1px solid #db4a39;
+}
+.share-buttons .inner .pocket-button
+{
+    color:#d3505a;
+    border:1px solid #d3505a;
+}
+/*読者になるボタン*//*今は使ってないよ*/
+/*共通の読者ボタンの設定*/
+.hatena-follow-button
+{
+    font-size:15px;                /*文字の大きさ*/
+    border: 0px !important;        /*枠線なし*/
+    width: 100px;                  /*ボタンの横幅*/
+    height: 30px;                  /*ボタンの縦幅*/
+    text-align: center;            /*文字を左右の中心に*/
+    vertical-align: middle;        /*文字を上下の中心に*/
+    padding: 4px 10px !important;  /*上下に4px 左右に10pxの隙間*/
+}
+/*読者の人 通常時*/
+.hatena-follow-button.subscribing
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);   /*影をつける*/
+    background-color:white;                 /*ボタンの色*/
+    border: 1.2px solid #a9a9a9 !important; /*薄く枠線を描いてあります*/
+}
+/*読者の人 マウスを重ねたとき*/
+.hatena-follow-button.subscribing.hover
+{
+    width:100px;                  /*調整のためいれてます*/
+    top: 2px;                     /*ボタンを下げる*/
+    box-shadow: none;             /*影をなくす*/
+}
+/*読者じゃない人 通常時*/
+.hatena-follow-button.unsubscribing
+{
+    color:white !important;                /*文字の色*/
+    background: #F57A8F;                   /*ボタンの色*/
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);  /*影をつける*/
+}
+/*読者じゃない人 マウスを重ねたとき*/
+.hatena-follow-button.unsubscribing.hover
+{
+    background: :#F57A8F;         /*ボタンの色*/
+    color : white !important;     /*文字の色*/
+    margin-top: 2px;              /*ボタンを下げる*/
+    box-shadow: none;             /*影をなくす*/
+}
+.hatena-follow-button-box .subscription-count-box
+{
+    margin: 0 0 0 6px !important;
+    top:-2px;
+}
+/*読者人数の部分*/
+.hatena-follow-button-box .subscription-count
+{
+    display: none;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding:1px 10px 1px 10px;
+}
+.hatena-follow-button-box i, .hatena-follow-button-box u
+{
+    display: none;
+}
+/* ページャ */
+.pager-wrapper
+{
+    width:100%;
+}
+.pager-group
+{
+    border-left:0;
+}
+.pager-group, .pager-group .pager-r
+{
+    border-color:#333;
+    border-radius:0;
+}
+.pager-group [class*="blogicon-"]
+{
+    color:#333;
+}
+/* ボタン */
+.btn
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #dde5e8;
+    padding: 6px 12px;
+    font-size: 85%;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #242527;
+    background-color: #f7f8f9;
+    font-weight: 700;
+}
+ /*スマホ版フォローボタン*/
+.sidebar-follow-buttons
+{
+    text-align: center;
+    width:100%;
+    letter-spacing: -.40em;
+}
+.sidebar-follow-buttons .follow-title
+{
+    letter-spacing: normal;
+    width:100%;
+    color:#666;
+    margin-bottom:5px;
+}
+.sidebar-follow-buttons a
+{
+    font-family: 'Exo', sans-serif;
+    display: inline-block;
+    letter-spacing: normal;
+    width:47%;
+    text-align: center;
+    text-decoration: none;
+    padding:6% 0;
+    margin:1%;
+}
+.sidebar-follow-buttons .inner-text
+{
+    font-size:13px;
+}
+.sidebar-follow-buttons .hatena
+{
+    color: #38393C;
+    border: 1px solid;
+}
+.sidebar-follow-buttons .facebook
+{
+    color: #305097;
+    border: 1px solid;
+}
+.sidebar-follow-buttons .twitter
+{
+    color: #55acee;
+    border: 1px solid;
+}
+.sidebar-follow-buttons .instagram
+{
+    color: #3f729b;
+    border: 1px solid;
+}
+.sidebar-follow-buttons .feedly
+{
+    color: #6cc655;
+    border: 1px solid;
+}
+.sidebar-follow-buttons .googleplus
+{
+    color: #db4a39;
+    border: 1px solid;
+}
+/* フッター部分 */
+.hatena-module-profile .profile-icon, .hatena-module.profile .profile-icon
+{
+    border:1px solid #333;
+    border-radius:0;
+}
+.search-form .search-module-input, .pagetop, .hatena-urllist > li
+{
+    border-color:#333;
+}
+.hatena-urllist > li:first-child
+{
+    border-top:1px solid #333;
+    padding-top:8px;
+}
+.hatena-urllist > li:last-child
+{
+    border-bottom:1px solid #333;
+    padding-bottom:8px;
+}
+.hatena-urllist > li a
+{
+    font-weight:bold;
+    color:#1d3557;
+}
+.hatena-urllist .urllist-date-link a
+{
+    color:#333;
+    font-style:italic;
+}
+/* フッター部分の見出し */
+/*プロフィール消す*/
+.hatena-module.profile
+{
+    display: none;
+}
+.hatena-module-title
+{
+    /*display:none;*/
+    border: none;
+}
+.profile-wrapper
+{
+    display:none;
+}
+/* フッター部分のリストを消す */
+.touch-item-list
+{
+    display: none;
+}
+/*はてなブログをはじめようを消す*/
+.footer-action-wrapper
+{
+    display: none;
+}
+/*powered by はてなブログを消す*/
+.footer.section.footer-service-link
+{
+    display: none;
+}
+ /*はてな純正の上へ戻るを消す*/
+.pagetop.section
+{
+    display: none;
+}
+
+/*独自プロフィール*/
+.hatena-module-profile .profile-description
+{
+    font-size: 80%;
+}
+.profile-description
+{
+    width: 100%;
+}
+.profile-description img
+{
+    border: solid 2px #999;
+    border-radius: 50%;
+}
+
+/*下部記事一覧*/
+.urllist-date-link
+{
+    font-family: 'Exo', sans-serif;
+}
+
+/*コピーライト*/
+#bottom-editarea .section
+{
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(-135deg, #5C258D, #4389A2);
+}
+.footer-follow-buttons
+{
+    width: 100%;
+    padding: 10px 0px 15px 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+.footer-follow-buttons ul
+{
+    margin: 0;
+    padding: 0 10px;
+}
+.footer-follow-buttons li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+.footer-follow-buttons .hatena
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 38px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.footer-follow-buttons .twitter
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 38px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.footer-follow-buttons .instagram
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 38px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.footer-follow-buttons .feedly
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 38px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.footer-follow-buttons .youtube
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 38px;
+    vertical-align: middle;
+    border: 1px solid;
+}
+.footer-follow-buttons a
+ {
+  color: #ffffff;
+ }
+.footer-links
+ {
+  font-family: 'Noto Serif SC', serif;
+  width:100%;
+  padding: 0;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;/*文字の色*/
+ }
+.footer-links ul
+{
+    margin: 0;
+    padding: 0 10px;
+    font-size: 10px;
+}
+.footer-links li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0 5px;
+}
+.footer-links li:before
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content:"\f0da";
+}
+.footer-links a
+{
+    color: #ffffff;
+}
+.copyright
+{
+    font-family: 'Exo', sans-serif;
+    width:100%;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;/*文字の色*/
+}
+.copyright a
+{
+    color: #FFFFFF;
+}
+/* フッターメニューを消す */
+#footer-menu
+{
+    display: none;
+}
+/*アイコン一覧*/
+.mika-nor::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225104.png);}
+.mika-no2r::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225054.png);}
+.mika-komar::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225100.png);}
+.mika-konr::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225048.png);}
+.mika-doyar::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225039.png);}
+.mika-okor::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225325.png);}
+.mika-nol::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225319.png);}
+.mika-no2l::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225308.png);}
+.mika-komal::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225314.png);}
+.mika-konl::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225726.png);}
+.mika-doyal::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225715.png);}
+.mika-okol::after {background-image:url(//cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20181209/20181209225702.png);}
