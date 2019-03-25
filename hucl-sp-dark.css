@@ -317,6 +317,7 @@
     #js-closeBtnWrap {
         position: sticky;
         top: 0;
+	height: 54px;
         display: block;
         background: #fff;
         background: linear-gradient(-135deg, #2b5876, #4e4376);
@@ -352,11 +353,28 @@
         transform: translateX(0);
     }
 }
+#style-change
+{
+    position: absolute;
+    font-size: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+#dark
+{
+    display: none;
+}
+#light
+{
+    color: orange;
+}
 #menu-title
 {
-    position: relative;
-    display: inline-block;
-    left: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
 }
 #menu-search-box
 {
