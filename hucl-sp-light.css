@@ -9,6 +9,7 @@
     padding-top: 0px;
     background: #ffffff;
     color: #242527;
+    transition: all .4s;
 }
 .list-entry-article
 {
