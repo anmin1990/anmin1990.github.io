@@ -690,6 +690,37 @@ blockquote cite
     font-size: 75%;
     font-style: italic;
 }
+/*名前・ID・投稿日*/
+.entry-footer-section
+{
+    color: #6b7377;
+    font-size: 80%;
+    margin-bottom: 8px;
+}
+/*記事下リンク*/
+.pager-permalink .pager-entry-title
+{
+    color: #242527;
+    font-weight: 700;
+    font-size: 95%;
+}
+/*記事一覧ボタン*/
+.pager-archive
+{
+    width: 93.75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    display: block;
+    border-top: 1px solid #dde5e8;
+    border-bottom: 1px solid #dde5e8;
+    text-align: center;
+    font-weight: 700;
+    color: #242527;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    font-size: 80%;
+}
 
 /*スクロールフェードインDown用*/
 .fadeInDown
