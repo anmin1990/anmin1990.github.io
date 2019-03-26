@@ -1,5 +1,9 @@
 /* ヘッダー部分 */
 /* はてなのグローバルメニューを消す */
+body
+{
+    transition: all .4s;
+}
 #globalheader-container
 {
     display: none;
