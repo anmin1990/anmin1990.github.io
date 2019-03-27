@@ -367,6 +367,7 @@
 }
 #light
 {
+    display: block;
     transition: all .4s;
 }
 #light a
