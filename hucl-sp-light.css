@@ -356,6 +356,10 @@
     transform: translateY(-50%);
     left: 5%;
 }
+#dark
+{
+    transition: all .4s;
+}
 #dark a
 {
     color: skyblue;
@@ -364,6 +368,10 @@
 {
     display: none;
     transition: all .4s;
+}
+#light a
+{
+    color: orange;
 }
 #menu-title
 {
