@@ -358,6 +358,7 @@
 }
 #dark
 {
+    display: block;
     transition: all .4s;
 }
 #dark a
