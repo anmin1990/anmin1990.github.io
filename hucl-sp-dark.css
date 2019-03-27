@@ -362,6 +362,14 @@
     display: none;
     transition: all .4s;
 }
+#dark a
+{
+    color: skyblue;
+}
+#light
+{
+    transition: all .4s;
+}
 #light a
 {
     color: orange;
