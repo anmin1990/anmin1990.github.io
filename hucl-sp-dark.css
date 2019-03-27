@@ -360,6 +360,7 @@
 #dark
 {
     display: none;
+    transition: all .4s;
 }
 #light a
 {
