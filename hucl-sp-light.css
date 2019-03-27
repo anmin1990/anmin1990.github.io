@@ -460,6 +460,12 @@
     margin:0px 0px 5px;
     border-bottom:1px solid #333;
 }
+.date::before
+{
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    content: '\f017';/*投稿日のアイコン*/
+}
 .list-entry-article .entry-footer
 {
     display:inline-block;
