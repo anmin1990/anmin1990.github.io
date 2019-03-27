@@ -1,9 +1,5 @@
 /* ヘッダー部分 */
 /* はてなのグローバルメニューを消す */
-html
-{
-    transition: all .4s;
-}
 #globalheader-container
 {
     display: none;
@@ -18,10 +14,12 @@ html
 .list-entry-article
 {
     background: #f0f0f0;
+    transition: all .4s;
 }
 .list-entry-article .section
 {
     color: #242527;
+    transition: all .4s;
 }
 #top-editarea .section
 {
@@ -106,76 +104,76 @@ html
 }
 #original-hedder .src1
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004132.jpg);
-	  background-size: cover;
-	  animation-delay: 0s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004132.jpg);
+    background-size: cover;
+    animation-delay: 0s;
 }
 #original-hedder .src2
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004259.jpg);
-	  background-size: cover;
-	  animation-delay: 7s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004259.jpg);
+    background-size: cover;
+    animation-delay: 7s;
 }
 #original-hedder .src3
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004241.jpg);
-	  background-size: cover;
-	  animation-delay: 14s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004241.jpg);
+    background-size: cover;
+    animation-delay: 14s;
 }
 #original-hedder .src4
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004741.jpg);
-	  background-size: cover;
-	  animation-delay: 21s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004741.jpg);
+    background-size: cover;
+    animation-delay: 21s;
 }
 #original-hedder .src5
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004619.jpg);
-	  background-size: cover;
-	  animation-delay: 28s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004619.jpg);
+    background-size: cover;
+    animation-delay: 28s;
 }
 #original-hedder .src6
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004634.jpg);
-	  background-size: cover;
-	  animation-delay: 35s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004634.jpg);
+    background-size: cover;
+    animation-delay: 35s;
 }
 #original-hedder .src7
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004514.jpg);
-	  background-size: cover;
-	  animation-delay: 42s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004514.jpg);
+    background-size: cover;
+    animation-delay: 42s;
 }
 #original-hedder .src8
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004311.jpg);
-	  background-size: cover;
-	  animation-delay: 49s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004311.jpg);
+    background-size: cover;
+    animation-delay: 49s;
 }
 #original-hedder .src9
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004850.jpg);
-	  background-size: cover;
-	  animation-delay: 56s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004850.jpg);
+    background-size: cover;
+    animation-delay: 56s;
 }
 #original-hedder .src10
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004831.jpg);
-	  background-size: cover;
-	  animation-delay: 63s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004831.jpg);
+    background-size: cover;
+    animation-delay: 63s;
 }
 #original-hedder .src11
 {
-	  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004725.jpg);
-	  background-size: cover;
-	  animation-delay: 70s;
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004725.jpg);
+    background-size: cover;
+    animation-delay: 70s;
 }
 @keyframes bgAnime {
-	  0% { opacity: 0; }
-	  7% { opacity: 1; }
-	  11% { opacity: 1; }
-	  18% { opacity: 0; }
-	  100% { opacity: 0; }
+    0% { opacity: 0; }
+    7% { opacity: 1; }
+    11% { opacity: 1; }
+    18% { opacity: 0; }
+    100% { opacity: 0; }
 }
 
 /*メニューバー*/
@@ -294,69 +292,59 @@ html
     font-size: 22px;
     left: 85%;
 }
-@media screen and (max-width: 1100px) {
-    .header__leadWrap
-    {
-        padding: 0 10px;
-    }
-    .headerNav li
-    {
-        margin-left: 20px;
-    }
+.menu-barWrap
+{
+    display: block;
+    height: 100%;
 }
-@media screen and (max-width: 900px) {
-    #header
-    {
-        position: relative;
-    }
-    .menu-barWrap {
-        display: block;
-        height: 100%;
-    }
-    .menu-bar {
-        display: block;
-    }
-    .menu-bar_logo img {
-        width: 124px;
-    }
-    #js-closeBtnWrap {
-        position: sticky;
-        top: 0;
-	height: 54px;
-        display: block;
-        background: #fff;
-        background: linear-gradient(-135deg, #2b5876, #4e4376);
-        color:#fff
-    }
-    #js-openBtn
-    {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        height: 18px;
-        margin: auto;
-        padding: 8px 18px 17px 14px;
-        font-size: 22px;
-        color: #f0f0f0;
-    }
-    #js-spNav {
-        position: fixed;
-        z-index: 12;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 85%;
-        background: #f0f0f0;
-        transform: translateX(100%);
-        transition: all .4s;
-        visibility: visible;
-        overflow-y: auto;
-    }
-    #js-spNav.isOpen {
-        transform: translateX(0);
-    }
+.menu-bar
+{
+    display: block;
+}
+.menu-bar_logo img
+{
+    width: 124px;
+}
+#js-closeBtnWrap
+{
+    position: sticky;
+    top: 0;
+    height: 54px;
+    display: block;
+    background: #fff;
+    background: linear-gradient(-135deg, #2b5876, #4e4376);
+    color:#fff;
+    transition: all .4s;
+}
+#js-openBtn
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 18px;
+    margin: auto;
+    padding: 8px 18px 17px 14px;
+    font-size: 22px;
+}
+#js-spNav
+{
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    background: #f0f0f0;
+    transform: translateX(100%);
+    transition: all .4s;
+    visibility: visible;
+    overflow-y: auto;
+}
+#js-spNav.isOpen
+{
+    transform: translateX(0);
 }
 #style-change
 {
@@ -365,6 +353,7 @@ html
     top: 50%;
     transform: translateY(-50%);
     left: 5%;
+    transition: all .4s;
 }
 #dark a
 {
@@ -408,6 +397,7 @@ html
     padding: 0;
     width: 95%;
     background-color: #f0f0f0;
+    transition: all .4s;
 }
 #menu-box > .hatena-module
 {
@@ -440,6 +430,7 @@ html
 {
     border: 1px solid #333;
     margin: 0px 3px 7px;
+    transition: all .4s;
 }
 .list-entry-article .thumb-image
 {
@@ -465,10 +456,12 @@ html
     border-radius:3px;
     background:#1d3557;
     color:#fff;
+    transition: all .4s;
 }
 .list-entry-article .section
 {
     color: #242527;
+    transition: all .4s;
 }
 .entry-list
 {
@@ -476,7 +469,6 @@ html
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
 .entry-header.section
 {
     padding-top: 1em;
@@ -514,6 +506,7 @@ ul.table-of-contents
     border: solid 0.5px #4f4f4f;
     padding: 0.5em;
     margin: 1.5em 0em;
+    transition: all .4s;
 }
 .table-of-contents:before
 {
@@ -525,6 +518,7 @@ ul.table-of-contents
     margin-bottom: 1em;
     padding-bottom: 0.5em;
     border-bottom: dotted 2px #4f4f4f; /*命題と目次の間の線*/
+    transition: all .4s;
 }
 .table-of-contents li
 {
@@ -534,17 +528,11 @@ ul.table-of-contents
 {
     text-decoration: none;
     color: #4f4f4f;
+    transition: all .4s;
 }
 .table-of-contents a:hover
 {
     text-decoration: underline;
-}
-
-/*本文*/
-p::selection, p::-moz-selection
-{
-    background: #4f4f4f;
-    color:#fff
 }
 
 /*見出し*/
@@ -652,6 +640,7 @@ blockquote cite
     border-radius: 5px;
     border: 2px solid #ff0000;
     background-color: #FA817D;
+    color: #242527;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px;
@@ -662,6 +651,7 @@ blockquote cite
     border-radius: 5px;
     border: 2px solid #00BFFF;
     background-color: #66ffff;
+    color: #242527;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px;
@@ -701,6 +691,7 @@ blockquote cite
     color: #6b7377;
     font-size: 80%;
     margin-bottom: 8px;
+    transition: all .4s;
 }
 /*記事下リンク*/
 .pager-permalink .pager-entry-title
@@ -708,6 +699,7 @@ blockquote cite
     color: #242527;
     font-weight: 700;
     font-size: 95%;
+    transition: all .4s;
 }
 /*記事一覧ボタン*/
 .pager-archive
@@ -725,6 +717,7 @@ blockquote cite
     padding-top: .8em;
     padding-bottom: .8em;
     font-size: 80%;
+    transition: all .4s;
 }
 
 /*スクロールフェードインDown用*/
@@ -1112,6 +1105,7 @@ blockquote cite
     color: #242527;
     background-color: #f7f8f9;
     font-weight: 700;
+    transition: all .4s;
 }
  /*スマホ版フォローボタン*/
 .sidebar-follow-buttons
@@ -1146,6 +1140,7 @@ blockquote cite
 {
     color: #38393C;
     border: 1px solid;
+    transition: all .4s;
 }
 .sidebar-follow-buttons .facebook
 {
@@ -1196,6 +1191,7 @@ blockquote cite
 {
     font-weight:bold;
     color:#1d3557;
+    transition: all .4s;
 }
 .hatena-urllist .urllist-date-link a
 {
