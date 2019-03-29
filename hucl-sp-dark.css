@@ -1192,6 +1192,11 @@ blockquote cite
     border:1px solid #333;
     border-radius:0;
 }
+.search-form .search-module-input
+{
+    background-color: #f0f0f0;
+    transition: all .4s;
+}
 .search-form .search-module-input, .pagetop, .hatena-urllist > li
 {
     border-color:#333;
