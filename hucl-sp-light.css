@@ -517,7 +517,11 @@
     display: none;
 }
 
-
+/*タイトル*/
+.entry-title a
+{
+    color: #242527;
+}
 /*目次*/
 ul.table-of-contents
 {
@@ -533,7 +537,7 @@ ul.table-of-contents
     display: block;
     text-align: center;
     font-weight: bold;
-    color: #000000;
+    color: #242527;
     margin-bottom: 1em;
     padding-bottom: 0.5em;
     border-bottom: dotted 2px #4f4f4f; /*命題と目次の間の線*/
@@ -879,7 +883,6 @@ blockquote cite
     border-radius: 15px;
     border: 1px solid #8f8f8f;
     box-shadow: 1px 1px 5px #aaa;
-    background-color: #fff;
     z-index: 1;
 }
 .entry-content .l-fuki
@@ -902,10 +905,11 @@ blockquote cite
     border-bottom: 1px solid #8f8f8f;
     background-color: #fff;
     z-index: 2;
+    trandition: all .4s;
 }
 .entry-content .l-fuki::before
 {
-    right: -7px;
+    right: -6px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
@@ -932,7 +936,7 @@ blockquote cite
 }
 .entry-content .l-fuki::after
 {
-    right: -105px;
+    right: -95px;
 }
 .entry-content .r-fuki::after
 {
