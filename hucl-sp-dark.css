@@ -517,7 +517,11 @@
     display: none;
 }
 
-
+/*タイトル*/
+.entry-title a
+{
+    color: #f0f0f0;
+}
 /*目次*/
 ul.table-of-contents
 {
@@ -879,7 +883,6 @@ blockquote cite
     border-radius: 15px;
     border: 1px solid #8f8f8f;
     box-shadow: 1px 1px 5px #aaa;
-    background-color: #fff;
     z-index: 1;
 }
 .entry-content .l-fuki
@@ -900,12 +903,13 @@ blockquote cite
     height: 10px;
     border-right: 1px solid #8f8f8f;
     border-bottom: 1px solid #8f8f8f;
-    background-color: #fff;
+    background-color: #10171E;
     z-index: 2;
+    trandition: all .4s;
 }
 .entry-content .l-fuki::before
 {
-    right: -7px;
+    right: -6px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
@@ -932,7 +936,7 @@ blockquote cite
 }
 .entry-content .l-fuki::after
 {
-    right: -105px;
+    right: -95px;
 }
 .entry-content .r-fuki::after
 {
