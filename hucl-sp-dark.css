@@ -521,6 +521,7 @@
 .entry-title a
 {
     color: #f0f0f0;
+    transition: all .4s;
 }
 /*目次*/
 ul.table-of-contents
