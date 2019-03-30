@@ -460,7 +460,7 @@
     border-top: 1px solid #333;
     box-sizing: border-box;
 }
-#categoies-list dd :nth-child(odd)
+#categoies-list :nth-child(2n+1)
 {
     border-left: 1px solid #333;
 }
