@@ -456,11 +456,12 @@
 }
 #categoies-list dd
 {
+    display: inline-block;
     width: 50%;
     border-top: 1px solid #333;
     box-sizing: border-box;
 }
-#categoies-list :nth-child(2n+1)
+#categoies-list dd :nth-child(2n)
 {
     border-left: 1px solid #333;
 }
