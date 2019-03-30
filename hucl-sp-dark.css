@@ -457,6 +457,7 @@
 #categoies-list dd
 {
     display: inline-block;
+    margin: 0;
     width: 50%;
     border-top: 1px solid #333;
     box-sizing: border-box;
