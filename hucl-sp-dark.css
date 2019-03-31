@@ -440,21 +440,23 @@
     font-family: 'Exo', sans-serif;
     width: 100%;
     padding: 0;
-    list-type: none;
+    list-style-type: none;
 }
 #menu-contents-list > li
 {
     width: 100%;
-    border-top: 1px solid #333;
+    border-top: 1px solid #ccc;
 }
 #categoies-list
 {
     width: 100%;
+    font-size: 0;
 }
 #categoies-list dt
 {
     width: 100%;
-    border-top: 1px solid #333;
+    border-top: 1px solid #ccc;
+    font-size: 12;
 }
 #categoies-list dd
 {
@@ -463,6 +465,7 @@
     width: 50%;
     border-top: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: 12;
 }
 #categoies-list dd :nth-child(2n)
 {
