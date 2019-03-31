@@ -467,7 +467,7 @@
     width: 50%;
     border-top: 1px solid #ccc;
     box-sizing: border-box;
-    font-size: 12;
+    font-size: 12px;
 }
 #categoies-list dd :nth-of-type()
 {
