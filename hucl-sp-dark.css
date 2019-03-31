@@ -469,7 +469,7 @@
     box-sizing: border-box;
     font-size: 12px;
 }
-#categoies-list dd :nth-of-type()
+#categoies-list dd :nth-of-type(2n)
 {
     border-left: 1px solid #ccc;
 }
