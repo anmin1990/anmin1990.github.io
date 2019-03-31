@@ -446,6 +446,7 @@
 }
 #menu-contents-list li
 {
+    background: #4f4f4f;
     padding: 8px;
     width: 100%;
     border-top: 1px solid #ccc;
@@ -479,6 +480,7 @@
 #categoies-list dd
 {
     display: inline-block;
+    background-color: #2f2f2f;
     margin: 0;
     padding: 9px;
     width: 50%;
