@@ -457,8 +457,7 @@
 #categoies-list dt
 {
     width: 100%;
-    border-top: 1px solid #ccc;
-    font-size: 12px;
+    font-size: 36px;
 }
 #categoies-list dd
 {
@@ -467,7 +466,7 @@
     width: 50%;
     border-top: 1px solid #ccc;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 36px;
 }
 #categoies-list dd:nth-of-type(2n)
 {
