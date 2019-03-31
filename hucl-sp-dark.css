@@ -456,7 +456,7 @@
 {
     width: 100%;
     border-top: 1px solid #ccc;
-    font-size: 12;
+    font-size: 12px;
 }
 #categoies-list dd
 {
@@ -467,7 +467,7 @@
     box-sizing: border-box;
     font-size: 12;
 }
-#categoies-list dd :nth-child(2n)
+#categoies-list dd :nth-of-type()
 {
     border-left: 1px solid #ccc;
 }
