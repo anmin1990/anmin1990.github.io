@@ -448,6 +448,7 @@
 {
     width: 100%;
     border-top: 1px solid #ccc;
+    height: 42px;
 }
 #categoies-list
 {
@@ -457,6 +458,7 @@
 #categoies-list dt
 {
     width: 100%;
+    height: 42px;
     font-size: 36px;
 }
 #categoies-list dd
@@ -464,6 +466,7 @@
     display: inline-block;
     margin: 0;
     width: 50%;
+    height: 42px;
     border-top: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 36px;
