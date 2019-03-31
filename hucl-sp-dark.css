@@ -460,6 +460,7 @@
 }
 #menu-contents-list li a
 {
+    display: block;
     color: #dbdad8;
 }
 #categoies-list
@@ -496,6 +497,7 @@
 }
 #categoies-list dd a
 {
+    display: block;
     color: #dbdad8;
 }
 
