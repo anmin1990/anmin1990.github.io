@@ -446,8 +446,6 @@
 }
 #menu-contents-list li
 {
-    background: ;
-    padding: 8px;
     width: 100%;
     border-top: 1px solid #ccc;
     height: 43px;
@@ -461,6 +459,7 @@
 #menu-contents-list li a
 {
     display: block;
+    padding: 8px;
     color: #dbdad8;
 }
 #categoies-list
@@ -484,7 +483,6 @@
     display: inline-block;
     background-color: #101922;
     margin: 0;
-    padding: 9px;
     width: 50%;
     height: 43px;
     border-top: 1px solid #ccc;
@@ -498,6 +496,7 @@
 #categoies-list dd a
 {
     display: block;
+    padding: 9px;
     color: #dbdad8;
 }
 
