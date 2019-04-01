@@ -455,7 +455,7 @@
     box-sizing: border-box;
     font-size: 20px;
 }
-#menu-contents-list:first-of-type
+#menu-contents-list li:first-of-type
 {
     border: 0;
 }
