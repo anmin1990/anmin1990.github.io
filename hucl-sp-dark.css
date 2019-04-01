@@ -179,6 +179,7 @@
 /*メニューバー*/
 #menu-bar
 {
+    font-family: 'Exo', sans-serif;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     top: 0;
@@ -193,6 +194,7 @@
 }
 #menu-bar-dummy
 {
+    font-family: 'Exo', sans-serif;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     margin-top: -54px;
@@ -380,6 +382,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
+    font-size: 20px;
 }
 #menu-search-box
 {
