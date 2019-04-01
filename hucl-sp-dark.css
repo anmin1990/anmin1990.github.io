@@ -393,8 +393,6 @@
 }
 #original-search-box .search-form .search-module-button
 {
-    background: transparent url(/images/theme/search@2x.png?version=101ce7d…) no-repeat 100%;
-    background-size: 20px 20px;
     width: 20px;
     height: 20px;
     text-indent: -9999px;
