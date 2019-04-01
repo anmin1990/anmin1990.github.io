@@ -456,7 +456,8 @@
 {
     border: 0;
 }
-#menu-contents-list li a
+#menu-contents-list li a,
+#menu-contents-list li s
 {
     display: block;
     padding: 8px;
