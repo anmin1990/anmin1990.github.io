@@ -225,8 +225,7 @@
     width: 100%;
     height: 100%;
 }
-.menu-barWrap,
-.menu-bar
+.menu-barWrap
 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -243,33 +242,16 @@
     width: 171px;
     height: 100%;
     line-height: 50px;
-    color: #f0f0f0;
+    color: #dbdad8;
+    transition: all .4s;
 }
 .menu-bar_logo a
 {
     color: #dbdad8;
+    transition: all .4s;
 }
 .menu-bar_logoWrap {
     height: 100%;
-}
-.menu-bar
-{
-    max-width: none;
-    font-size: 13px;
-    font-weight: bold;
-}
-.menu-bar li
-{
-    margin-left: 30px;
-}
-.menu-bar li:first-child
-{
-    margin-left: 0;
-}
-.menu-bar li a
-{
-    display: block;
-    line-height: 48px;
 }
 #js-menuBk /*背景をタップするとメニューを閉じる*/
 {
@@ -315,7 +297,6 @@
     top: 0;
     height: 54px;
     display: block;
-    background: #fff;
     background: linear-gradient(-135deg, #2b5876, #4e4376);
     color:#dbdad8;
     transition: all .4s;
@@ -353,10 +334,10 @@
 #style-change
 {
     position: absolute;
-    font-size: 22px;
     top: 50%;
     transform: translateY(-50%);
-    left: 5%;
+    font-size: 22px;
+    line-height: 22px;
 }
 #dark
 {
@@ -370,10 +351,16 @@
 #light
 {
     display: block;
+    height: 100%;
+    width: 100%;
     transition: all .4s;
 }
 #light a
 {
+    display: block;
+    padding: 16px;
+    height: 22px;
+    width: 22px;
     color: orange;
 }
 #menu-title
@@ -1019,35 +1006,18 @@ blockquote cite
 {
     left: -105px;
 }
-@media screen and (max-width: 620px) {
-    .entry-content .l-fuki,
-    .entry-content .r-fuki
-    {
-        width: 68%
-    }
-    .entry-content .l-fuki
-    {
-        margin-right: 30%;
-    }
-    .entry-content .r-fuki
-    {
-        margin-left: 30%;
-    }
+.entry-content .l-fuki,
+.entry-content .r-fuki
+{
+    width: 68%
 }
-@media screen and (max-width: 478px) {
-    .entry-content .l-fuki::after,
-    .entry-content .r-fuki::after
-    {
-
-    }
-    .entry-content .l-fuki::after
-    {
-
-    }
-    .entry-content .r-fuki::after
-    {
-
-    }
+.entry-content .l-fuki
+{
+    margin-right: 30%;
+}
+.entry-content .r-fuki
+{
+    margin-left: 30%;
 }
 
 /*share-botton*/
