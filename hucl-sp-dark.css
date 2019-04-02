@@ -370,7 +370,6 @@
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
     font-size: 20px;
-    transition: all .4s;
 }
 #menu-search-box
 {
