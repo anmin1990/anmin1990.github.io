@@ -179,6 +179,7 @@
 /*メニューバー*/
 #menu-bar
 {
+    font-family: 'Exo', sans-serif;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     top: 0;
@@ -193,6 +194,7 @@
 }
 #menu-bar-dummy
 {
+    font-family: 'Exo', sans-serif;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     margin-top: -54px;
@@ -223,8 +225,7 @@
     width: 100%;
     height: 100%;
 }
-.menu-barWrap,
-.menu-bar
+.menu-barWrap
 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -242,32 +243,15 @@
     height: 100%;
     line-height: 50px;
     color: #f0f0f0;
+    transition: all .4s;
 }
 .menu-bar_logo a
 {
     color: #f0f0f0;
+    transition: all .4s;
 }
 .menu-bar_logoWrap {
     height: 100%;
-}
-.menu-bar
-{
-    max-width: none;
-    font-size: 13px;
-    font-weight: bold;
-}
-.menu-bar li
-{
-    margin-left: 30px;
-}
-.menu-bar li:first-child
-{
-    margin-left: 0;
-}
-.menu-bar li a
-{
-    display: block;
-    line-height: 48px;
 }
 #js-menuBk /*背景をタップするとメニューを閉じる*/
 {
@@ -313,7 +297,6 @@
     top: 0;
     height: 54px;
     display: block;
-    background: #fff;
     background: linear-gradient(-135deg, #2b5876, #4e4376);
     color:#fff;
     transition: all .4s;
@@ -351,18 +334,24 @@
 #style-change
 {
     position: absolute;
-    font-size: 22px;
     top: 50%;
     transform: translateY(-50%);
-    left: 5%;
+    font-size: 22px;
+    line-height: 22px;
 }
 #dark
 {
     display: block;
+    height: 100%;
+    width: 100%;
     transition: all .4s;
 }
 #dark a
 {
+    display: block;
+    padding: 16px;
+    height: 22px;
+    width: 22px;
     color: skyblue;
 }
 #light
@@ -380,6 +369,8 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
+    font-size: 20px;
+    transition: all .4s;
 }
 #menu-search-box
 {
@@ -388,8 +379,6 @@
 }
 #original-search-box .search-form .search-module-button
 {
-    background: transparent url(/images/theme/search@2x.png?version=101ce7d…) no-repeat 100%;
-    background-size: 20px 20px;
     width: 20px;
     height: 20px;
     text-indent: -9999px;
@@ -412,11 +401,13 @@
 }
 #menu-box > .hatena-module
 {
-    margin-bottom: .5em;
+    margin-bottom: 0;
+    border-bottom: 1px solid #333;
+    transition: all .4s;
 }
 #menu-contents
 {
-    width: 95%;
+    width: 100%;
     margin: 3px auto;
     color: #242527;
     transition: all .4s;
@@ -436,6 +427,76 @@
     /*下2つで背景を元のサイズのまま表示することができる*/
     width: 100%;
     height: 100%;
+}
+#menu-contents-list
+{
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+#menu-contents-list li
+{
+    width: 100%;
+    border-top: 1px solid #333;
+    height: 43px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: all .4s;
+}
+#menu-contents-list li:first-of-type
+{
+    border: 0;
+}
+#menu-contents-list li a,
+#menu-contents-list li s
+{
+    display: block;
+    padding: 8px;
+    color: #242527;
+    transition: all .4s;
+}
+#categoies-list
+{
+    width: 100%;
+    font-size: 0;
+}
+#categoies-list dt
+{
+    background-color: #f7f7f7;
+    padding: 8px;
+    width: 100%;
+    height: 43px;
+    border-top: 1px solid #333;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-style: italic;
+    transition: all .4s;
+}
+#categoies-list dd
+{
+    display: inline-block;
+    background-color: #d6d6d6;
+    margin: 0;
+    width: 50%;
+    height: 43px;
+    border-top: 1px solid #333;
+    box-sizing: border-box;
+    font-size: 18px;
+    transition: all .4s;
+}
+#categoies-list dd:nth-of-type(2n)
+{
+    border-left: 1px solid #333;
+    transition: all .4s;
+}
+#categoies-list dd a
+{
+    display: block;
+    padding: 9px;
+    color: #242527;
+    transition: all .4s;
 }
 
 /* 記事一覧（日付・も含む） */
@@ -945,35 +1006,18 @@ blockquote cite
 {
     left: -105px;
 }
-@media screen and (max-width: 620px) {
-    .entry-content .l-fuki,
-    .entry-content .r-fuki
-    {
-        width: 68%
-    }
-    .entry-content .l-fuki
-    {
-        margin-right: 30%;
-    }
-    .entry-content .r-fuki
-    {
-        margin-left: 30%;
-    }
+.entry-content .l-fuki,
+.entry-content .r-fuki
+{
+    width: 68%
 }
-@media screen and (max-width: 478px) {
-    .entry-content .l-fuki::after,
-    .entry-content .r-fuki::after
-    {
-
-    }
-    .entry-content .l-fuki::after
-    {
-
-    }
-    .entry-content .r-fuki::after
-    {
-
-    }
+.entry-content .l-fuki
+{
+    margin-right: 30%;
+}
+.entry-content .r-fuki
+{
+    margin-left: 30%;
 }
 
 /*share-botton*/
