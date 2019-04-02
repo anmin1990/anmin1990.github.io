@@ -470,6 +470,7 @@
     height: 43px;
     border-top: 1px solid #ccc;
     box-sizing: border-box;
+    color: #dbdad8;
     font-size: 20px;
     font-style: italic;
     transition: all .4s;
