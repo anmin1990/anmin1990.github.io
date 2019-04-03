@@ -496,7 +496,7 @@
     color: #dbdad8;
     transition: all .4s;
 }
-menu-footer
+#menu-footer
 {
     position: fixed;
     bottom: 0;
@@ -508,7 +508,7 @@ menu-footer
     height: 44px;
     transition: all .4s;
 }
-manu-footer p
+#manu-footer p
 {
     padding: 2%;
 }
