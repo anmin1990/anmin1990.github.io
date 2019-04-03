@@ -496,6 +496,22 @@
     color: #dbdad8;
     transition: all .4s;
 }
+menu-footer
+{
+    position: fixed;
+    bottom: 0;
+    font-size: .66667rem;
+    background: #4f4f4f;
+    display: block;
+    color: #dbdad8;
+    width: 100%;
+    height: 44px;
+    transition: all .4s;
+}
+manu-footer p
+{
+    padding: 2%;
+}
 
 /* 記事一覧（日付・も含む） */
 .list-entry-article, .entry-list a:first-child .list-entry-article
