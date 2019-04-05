@@ -998,7 +998,7 @@ blockquote cite
     border-bottom: 1px solid #8f8f8f;
     background-color: #10171E;
     z-index: 2;
-    trandition: all .4s;
+    transition: all .4s;
 }
 .entry-content .l-fuki::before
 {
