@@ -184,8 +184,9 @@
     position: sticky;         /* 位置指定の基準点にする */
     top: 0;
     left: 0;
-    background: -webkit-linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
-    background: linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
+    background: -webkit-linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: -webkit-linear-gradient(225deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
     color: #fff;
     width: 100%;
     height: 54px;
@@ -200,8 +201,9 @@
     margin-top: -54px;
     top: 0;
     left: 0;
-    background: -webkit-linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
-    background: linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
+    background: -webkit-linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: -webkit-linear-gradient(225deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
+    background: linear-gradient(-135deg, rgb(200,114,39,.8), rgb(96,31,147,.8));
     color: #fff;
     width: 100%;
     height: 54px;
@@ -212,12 +214,14 @@
 {
     position: absolute;          /* 位置指定 */
     background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190220/20190220232225.png);
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     width: 125px;
     height: 50px;
     top: 50%;                    /* 親要素の半分下にずらす */
     left: 5%;                   /* 親要素の半分右にずらす */
-    transform: translateY(-50%);    /* 要素自体の半分、上と左にずらす */
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);    /* 要素自体の半分、上と左にずらす */
 }
 #menu-bar #menu-img a
 {
@@ -229,10 +233,13 @@
 {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -291,12 +298,15 @@
 }
 #js-closeBtnWrap
 {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     height: 54px;
     display: block;
+    background: -webkit-linear-gradient(225deg, #2b5876, #4e4376);
     background: linear-gradient(-135deg, #2b5876, #4e4376);
     color:#fff;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #js-openBtn
@@ -320,20 +330,24 @@
     bottom: 0;
     width: 85%;
     background: #f0f0f0;
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: all .4s;
     transition: all .4s;
     visibility: visible;
     overflow-y: auto;
 }
 #js-spNav.isOpen
 {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
 }
 #style-change
 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     font-size: 22px;
     line-height: 22px;
 }
@@ -342,6 +356,7 @@
     display: block;
     height: 100%;
     width: 100%;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #dark a
@@ -355,6 +370,7 @@
 #light
 {
     display: none;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #light a
@@ -366,11 +382,13 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%)translateY(-50%);
+    -webkit-transform: translateX(-50%)translateY(-50%);
+            transform: translateX(-50%)translateY(-50%);
     font-size: 20px;
 }
 #menu-search-box
 {
+    position: -webkit-sticky;
     position: sticky;
     top: 53px;
 }
@@ -394,12 +412,14 @@
     padding: 0;
     width: 95%;
     background-color: #f0f0f0;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #menu-box > .hatena-module
 {
     margin-bottom: 0;
     border-bottom: 1px solid #333;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #menu-contents
@@ -407,6 +427,7 @@
     width: 100%;
     margin: 3px auto;
     color: #242527;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 .hidden
@@ -438,8 +459,10 @@
     width: 100%;
     border-top: 1px solid #333;
     height: 43px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-size: 20px;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #menu-contents-list li:first-of-type
@@ -452,6 +475,7 @@
     display: block;
     padding: 8px;
     color: #242527;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #categoies-list
@@ -466,10 +490,12 @@
     width: 100%;
     height: 43px;
     border-top: 1px solid #333;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #242527;
     font-size: 20px;
     font-style: italic;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #categoies-list dd
@@ -480,13 +506,16 @@
     width: 50%;
     height: 43px;
     border-top: 1px solid #333;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-size: 18px;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #categoies-list dd:nth-of-type(2n)
 {
     border-left: 1px solid #333;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #categoies-list dd a
@@ -494,6 +523,7 @@
     display: block;
     padding: 9px;
     color: #242527;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #menu-footer
@@ -506,14 +536,12 @@
     color: #fff;
     width: 100%;
     height: 44px;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 #menu-footer p
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
+    padding: 2%;
 }
 
 /* 記事一覧（日付・も含む） */
