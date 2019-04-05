@@ -180,11 +180,13 @@
 #menu-bar
 {
     font-family: 'Exo', sans-serif;
+    position: fixed;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     top: 0;
     left: 0;
     background: -webkit-linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
+    background: -webkit-linear-gradient(225deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
     background: linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
     color: #dbdad8;
     width: 100%;
@@ -195,12 +197,14 @@
 #menu-bar-dummy
 {
     font-family: 'Exo', sans-serif;
+    position: fixed;
     position: -webkit-sticky;
     position: sticky;         /* 位置指定の基準点にする */
     margin-top: -54px;
     top: 0;
     left: 0;
     background: -webkit-linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
+    background: -webkit-linear-gradient(225deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
     background: linear-gradient(-135deg, rgba(200,114,39,.8), rgba(96,31,147,.8));
     color: #dbdad8;
     width: 100%;
@@ -229,7 +233,6 @@
 {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -291,6 +294,7 @@
 }
 #js-closeBtnWrap
 {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     height: 54px;
@@ -371,8 +375,9 @@
 }
 #menu-search-box
 {
+    position: -webkit-sticky;
     position: sticky;
-    top: 53px;
+    top: 54px;
 }
 #original-search-box .search-form .search-module-button
 {
@@ -511,8 +516,8 @@
 #menu-footer p
 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
