@@ -431,6 +431,8 @@
 }
 #menu-contents
 {
+    position: absolute;
+    top: 48px;
     width: 100%;
     margin: 3px auto;
     color: #242527;
