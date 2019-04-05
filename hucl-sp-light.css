@@ -520,7 +520,12 @@
 }
 #menu-footer p
 {
-    padding: 2%;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    margin: 0;
+    width: 100%;
+    transform: translate(-50%, -50%);
 }
 
 /* 記事一覧（日付・も含む） */
