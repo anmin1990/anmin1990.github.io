@@ -328,7 +328,7 @@
     transition: all .4s;
     visibility: visible;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 #js-spNav.isOpen
