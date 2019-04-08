@@ -377,7 +377,8 @@
 {
     position: -webkit-sticky;
     position: sticky;
-    top: 54px;
+    /*top: 54px;*/
+    top: 0;
 }
 #original-search-box .search-form .search-module-button
 {
@@ -403,6 +404,7 @@
 }
 #menu-box > .hatena-module
 {
+    margin-top: 13px;
     margin-bottom: 0;
     border-bottom: 1px solid #333;
     transition: all .4s;
@@ -508,7 +510,8 @@
 }
 #menu-footer
 {
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     bottom: 0;
     font-size: .66667rem;
     background: #4f4f4f;
