@@ -327,6 +327,7 @@
     transform: translateX(100%);
     transition: all .4s;
     visibility: visible;
+    overflow-x: hidden;
     overflow-y: auto;
 }
 #js-spNav.isOpen
@@ -377,8 +378,9 @@
 {
     position: -webkit-sticky;
     position: sticky;
-    /*top: 54px;*/
-    top: 0;
+    top: 54px;
+    background-color: #1B2938;
+    /*top: 67px;*/
 }
 #original-search-box .search-form .search-module-button
 {
@@ -404,7 +406,7 @@
 }
 #menu-box > .hatena-module
 {
-    margin-top: 13px;
+    padding-top: 1px;
     margin-bottom: 0;
     border-bottom: 1px solid #ccc;
     transition: all .4s;
@@ -414,6 +416,8 @@
     width: 100%;
     margin: 3px auto;
     color: #dbdad8;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     transition: all .4s;
 }
 .hidden
