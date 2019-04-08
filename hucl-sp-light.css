@@ -329,6 +329,7 @@
     visibility: visible;
     overflow-x: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 #js-spNav.isOpen
 {
@@ -416,8 +417,6 @@
     width: 100%;
     margin: 3px auto;
     color: #242527;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
     transition: all .4s;
 }
 .hidden
