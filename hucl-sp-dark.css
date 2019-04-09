@@ -444,6 +444,7 @@
     margin: 0;
     width: 100%;
     padding: 0;
+    padding-top: 72px;
     list-style-type: none;
 }
 #menu-contents-list li
