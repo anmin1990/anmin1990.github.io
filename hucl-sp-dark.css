@@ -294,8 +294,8 @@
 }
 #js-closeBtnWrap
 {
-    /*position: -webkit-sticky;*/
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     height: 54px;
     width: 100%;
@@ -378,8 +378,8 @@
 }
 #menu-search-box
 {
-    /*position: -webkit-sticky;*/
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 54px;
     width: 100%;
     background-color: #1B2938;
@@ -444,7 +444,6 @@
     margin: 0;
     width: 100%;
     padding: 0;
-    padding-top: 72px;
     list-style-type: none;
 }
 #menu-contents-list li
@@ -517,8 +516,8 @@
 }
 #menu-footer
 {
-    /*position: -webkit-sticky;*/
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     bottom: 0;
     font-size: .66667rem;
     background: #0A0F14;
