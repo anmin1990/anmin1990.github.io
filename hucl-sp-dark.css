@@ -294,8 +294,8 @@
 }
 #js-closeBtnWrap
 {
-    position: -webkit-sticky;
-    position: sticky;
+    /*position: -webkit-sticky;*/
+    position: fixed;
     top: 0;
     height: 54px;
     display: block;
@@ -377,8 +377,8 @@
 }
 #menu-search-box
 {
-    position: -webkit-sticky;
-    position: sticky;
+    /*position: -webkit-sticky;*/
+    position: fixed;
     top: 54px;
     background-color: #1B2938;
     /*top: 67px;*/
@@ -514,8 +514,8 @@
 }
 #menu-footer
 {
-    position: -webkit-sticky;
-    position: sticky;
+    /*position: -webkit-sticky;*/
+    position: fixed;
     bottom: 0;
     font-size: .66667rem;
     background: #0A0F14;
