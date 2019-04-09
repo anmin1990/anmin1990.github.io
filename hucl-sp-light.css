@@ -429,6 +429,7 @@
 }
 .scroll-prevent
 {
+    position: fixed;
     /*動き固定*/
     overflow: hidden;
     /*下2つで背景を元のサイズのまま表示することができる*/
