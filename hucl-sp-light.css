@@ -563,11 +563,11 @@
 }
 .date::before
 {
-    margin-right: 5px;
+    /*margin-right: 5px;*/
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     font-style: normal;
-    content: '\f017';/*投稿日のアイコン*/
+    content: '\f017';
 }
 .lastmod
 {
@@ -588,7 +588,7 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-style: normal;
-    content: '\f2f1';/*更新日のアイコン*/
+    content: '\f2f1';
 }
 .list-entry-article .entry-footer
 {
