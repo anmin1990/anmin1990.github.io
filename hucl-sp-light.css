@@ -569,6 +569,27 @@
     font-style: normal;
     content: '\f017';/*投稿日のアイコン*/
 }
+.lastmod
+{
+    font-family: 'Exo', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    font-style: italic;
+    font-size: .9em;
+    padding: 0px 10px;
+    margin-left: 15px;
+    display: inline;
+    font-weight: 700;
+}
+.lastmod::before
+{
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    font-style: normal;
+    content: '\f021';/*投稿日のアイコン*/
+}
 .list-entry-article .entry-footer
 {
     display:inline-block;
