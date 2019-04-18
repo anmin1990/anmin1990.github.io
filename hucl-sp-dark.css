@@ -654,6 +654,10 @@ ul.table-of-contents
     margin: 1.5em 0em;
     transition: all .4s;
 }
+ul.table-of-contents li
+{
+    transition: all 0s;
+}
 .table-of-contents:before
 {
     content: "お　品　書　き";
