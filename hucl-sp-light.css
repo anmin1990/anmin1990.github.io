@@ -680,6 +680,10 @@ ul.table-of-contents
 {
     text-decoration: underline;
 }
+.entry-content ul
+{
+    transition: 0s;
+}
 
 /*見出し*/
 .entry-content h2
