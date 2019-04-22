@@ -843,6 +843,14 @@ blockquote cite
     margin-bottom: 8px;
     transition: all .4s;
 }
+/*about this blog*/
+.page-about .entry-content dt
+{
+    display: block;
+    font-weight: 700;
+    color: #242527;
+    transition: all .4s;
+}
 /*記事下リンク*/
 .pager-permalink .pager-entry-title
 {
