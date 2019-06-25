@@ -846,7 +846,7 @@ blockquote cite
 /*文字色*/
 .entry-content red
 {
-    color: #b31414;
+    color: #ff0000;
     transition: all .4s;
 }
 .entry-content green
