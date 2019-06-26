@@ -838,7 +838,8 @@ blockquote cite
 /*画像の影*/
 .entry-content img
 {
- box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.2) ;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, 0.2);
+    transition: all .4s;
 }
 /*名前・ID・投稿日*/
 .entry-footer-section
