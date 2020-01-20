@@ -865,6 +865,11 @@ blockquote cite
     color: #0000cc;
     transition: all .4s;
 }
+/*文字形*/
+.entry-content em
+{
+    font-style: italic;
+}
 /*about this blog*/
 .page-about .entry-content dt
 {
