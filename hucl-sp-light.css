@@ -1037,6 +1037,7 @@ blockquote cite
 .entry-content .l-fuki,
 .entry-content .r-fuki
 {
+    font-family: 'HuiFontP109', sans-serif;
     position: relative;
     width: 80%;
     box-sizing: border-box;
