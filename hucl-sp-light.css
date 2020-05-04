@@ -1057,7 +1057,7 @@ blockquote cite
 .cstmreba .tomarebalink-box
 {
     width: 100%;
-    background-color: #fafafa; /* 全体の背景カラー */
+    background-color: #f0f0f0; /* 全体の背景カラー */
     overflow: hidden;
     border-radius: 0px;
     box-sizing: border-box;
