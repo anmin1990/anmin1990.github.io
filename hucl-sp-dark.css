@@ -1046,7 +1046,7 @@ blockquote cite
 .cstmreba a
 {
     transition: 0.4s ;
-    color:#285EFF; /* テキストリンクカラー */
+    color:#e0ffff; /* テキストリンクカラー */
 }
 .cstmreba a:hover
 {
