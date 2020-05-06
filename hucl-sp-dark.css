@@ -1454,7 +1454,8 @@ blockquote cite
     .cstmreba .tomarebalink-link1>div
     {
         width: 100%;
-        margin: 0.5%;
+        box-sizing: border-box;
+        margin: 0.5% auto;
     }
 }
 /* 吹き出しのCSS　*/
