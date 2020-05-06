@@ -953,10 +953,11 @@ blockquote cite
 {
     width: 98%;
     text-align: left;
+    margin: auto;
     padding: 12px 8px;
     /*border: 1px solid #7C7C7C;*/
     overflow: hidden;
-    background: #18244a;
+    background: #f0f0f0;
     box-sizing: border-box;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     transition: all .4s;
