@@ -951,10 +951,15 @@ blockquote cite
 /*アプリ紹介リンク*/
 .appreach
 {
+    width: 98%;
     text-align: left;
-    padding: 10px;
-    border: 1px solid #7C7C7C;
+    padding: 12px 8px;
+    /*border: 1px solid #7C7C7C;*/
     overflow: hidden;
+    background: #18244a;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    transition: all .4s;
 }
 .appreach:after
 {
@@ -1045,7 +1050,7 @@ blockquote cite
 }
 .cstmreba a
 {
-    transition: 0.4s ;
+    transition: all .4s ;
     color:#285EFF; /* テキストリンクカラー */
 }
 .cstmreba a:hover
@@ -1063,7 +1068,7 @@ blockquote cite
     box-sizing: border-box;
     padding: 12px 8px;
     box-shadow: 0px 2px 5px 0 rgba(0,0,0,.26);
-    transition: .4s;
+    transition: all .4s;
 }
 /* サムネイル画像ボックス */
 .cstmreba .booklink-image,
@@ -1161,10 +1166,10 @@ blockquote cite
 .cstmreba .kaerebalink-link1>div,
 .cstmreba .tomarebalink-link1>div
 {
-    float:left;
-    width:24%;
-    min-width:128px;
-    margin:0.5%;
+    float: left;
+    width: 24%;
+    min-width: 128px;
+    margin: 0.5%;
 }
 /***** ボタンデザインここから ******/
 .cstmreba .booklink-link2 a,
@@ -1176,7 +1181,7 @@ blockquote cite
     text-align: center;
     box-sizing: border-box;
     margin: 1px 0;
-    padding:3% 0.5%;
+    padding: 3% 0.5%;
     border-radius: 8px;
     font-size: 13px;
     font-weight: bold;
