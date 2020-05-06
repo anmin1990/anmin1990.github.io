@@ -1442,7 +1442,7 @@ blockquote cite
     .cstmreba .kaerebalink-link1>div,
     .cstmreba .tomarebalink-link1>div
     {
-        width: 49%;
+        width: 100%;
         margin: 0.5%;
     }
 }
