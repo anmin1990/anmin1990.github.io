@@ -1021,12 +1021,13 @@ blockquote cite
 {
     margin-left: 0.5em;
     color: #333;
+    transition: all .4s;
 }
 .appreach__links
 {
     float: left;
     height: 40px;
-    margin-top: 8px;
+    margin-top: 5%;
     white-space: nowrap;
 }
 .appreach__aslink img
