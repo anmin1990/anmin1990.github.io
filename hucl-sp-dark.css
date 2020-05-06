@@ -1050,12 +1050,12 @@ blockquote cite
 }
 .cstmreba a
 {
-    transition: 0.4s ;
-    color:#e0ffff; /* テキストリンクカラー */
+    transition: all .4s ;
+    color: #e0ffff; /* テキストリンクカラー */
 }
 .cstmreba a:hover
 {
-    color:#FFCA28; /* テキストリンクカラー(マウスオーバー時) */
+    color: #FFCA28; /* テキストリンクカラー(マウスオーバー時) */
 }
 .cstmreba .booklink-box,
 .cstmreba .kaerebalink-box,
@@ -1068,16 +1068,16 @@ blockquote cite
     box-sizing: border-box;
     padding: 12px 8px;
     box-shadow: 0px 2px 5px 0 rgba(255,255,255,.26);
-    transition: .4s;
+    transition: all .4s;
 }
 /* サムネイル画像ボックス */
 .cstmreba .booklink-image,
 .cstmreba .kaerebalink-image,
 .cstmreba .tomarebalink-image 
 {
-    width:150px;
-    float:left;
-    margin:0 14px 0 0;
+    width: 150px;
+    float: left;
+    margin: 0 14px 0 0;
     text-align: center;
     background: #fff;
 }
@@ -1085,22 +1085,22 @@ blockquote cite
 .cstmreba .kaerebalink-image a,
 .cstmreba .tomarebalink-image a 
 {
-    width:100%;
-    display:block;
+    width: 100%;
+    display: block;
 }
 .cstmreba .booklink-image a img,
 .cstmreba .kaerebalink-image a img,
 .cstmreba .tomarebalink-image a img 
 {
-    margin:0 ;
+    margin: 0;
     padding: 0;
-    text-align:center;
+    text-align: center;
     background: #fff;
 }
 .cstmreba .booklink-info,.cstmreba .kaerebalink-info,.cstmreba .tomarebalink-info
 {
-    overflow:hidden;
-    line-height:170%;
+    overflow: hidden;
+    line-height: 170%;
     color: #dbdad8;
 }
 /* infoボックス内リンク下線非表示 */
@@ -1116,7 +1116,7 @@ blockquote cite
 .cstmreba .tomarebalink-name>a 
 {
     border-bottom: 1px solid ;
-    font-size:16px;
+    font-size: 16px;
 }
 /* タイトル下にPタグ自動挿入された際の余白を小さく */
 .cstmreba .kaerebalink-name p,
@@ -1130,31 +1130,31 @@ blockquote cite
 .cstmreba .kaerebalink-powered-date,
 .cstmreba .tomarebalink-powered-date
 {
-    font-size:10px;
-    line-height:150%;
+    font-size: 10px;
+    line-height: 150%;
 }
 .cstmreba .booklink-powered-date a,
 .cstmreba .kaerebalink-powered-date a,
 .cstmreba .tomarebalink-powered-date a
 {
-    color:#dbdad8;
+    color: #dbdad8;
     border-bottom: none ;
 }
 .cstmreba .booklink-powered-date a:hover,
 .cstmreba .kaerebalink-powered-date a:hover,
 .cstmreba .tomarebalink-powered-date a:hover
 {
-    color:#333;
-    border-bottom: 1px solid #333 ;
+    color: #333;
+    border-bottom: 1px solid #333;
 }
 /* 著者・住所 */
 .cstmreba .booklink-detail,.cstmreba .kaerebalink-detail,.cstmreba .tomarebalink-address
 {
-    font-size:12px;
+    font-size: 12px;
 }
 .cstmreba .kaerebalink-link1 div img,.cstmreba .booklink-link2 div img,.cstmreba .tomarebalink-link1 div img
 {
-    display:none !important;
+    display: none !important;
 }
 .cstmreba .kaerebalink-link1, .cstmreba .booklink-link2,.cstmreba .tomarebalink-link1
 {
@@ -1166,10 +1166,10 @@ blockquote cite
 .cstmreba .kaerebalink-link1>div,
 .cstmreba .tomarebalink-link1>div
 {
-    float:left;
-    width:24%;
-    min-width:128px;
-    margin:0.5%;
+    float: left;
+    width: 24%;
+    min-width: 128px;
+    margin: 0.5%;
 }
 /***** ボタンデザインここから ******/
 .cstmreba .booklink-link2 a,
@@ -1181,7 +1181,7 @@ blockquote cite
     text-align: center;
     box-sizing: border-box;
     margin: 1px 0;
-    padding:3% 0.5%;
+    padding: 3% 0.5%;
     border-radius: 8px;
     font-size: 13px;
     font-weight: bold;
@@ -1413,7 +1413,7 @@ blockquote cite
 /***** ボタンデザイン　マウスオーバー時ここまで *****/
 .cstmreba .booklink-footer
 {
-    clear:both;
+    clear: both;
 }
 /***** 解像度768px以下のスタイル *****/
 @media screen and (max-width:768px)
