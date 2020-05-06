@@ -953,6 +953,7 @@ blockquote cite
 {
     width: 98%;
     text-align: left;
+    margin: auto;
     padding: 12px 8px;
     /*border: 1px solid #7C7C7C;*/
     overflow: hidden;
