@@ -1009,7 +1009,9 @@ blockquote cite
 }
 .appreach__info
 {
+    color: #dbdad8;
     font-size: 12px !important;
+    transition: all .4s;
 }
 .appreach__developper, .appreach__price
 {
@@ -1018,6 +1020,8 @@ blockquote cite
 .appreach__posted a
 {
     margin-left: 0.5em;
+    color: #dbdad8;
+    transition: all .4s;
 }
 .appreach__links
 {
