@@ -946,7 +946,45 @@ blockquote cite
         transform: translateY(0);
     }
 }
-/*スクロールフェードインDown用 END*/
+
+/*公式リンクカード*/
+.embed-wrapper
+{
+    font-size: 13px;
+    color: #dbdad8;
+    background: #18244a;
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px 0 rgba(255,255,255,.26);
+    border-radius: 10px;
+    transition: all .4s;
+}
+.embed-wrapper-inner
+{
+    padding: 12px 8px;
+}
+.embed-wrapper .blog-title a
+{
+    color: #e0ffff;
+    transition: all .4s;
+}
+.embed-wrapper .blog-user a
+{
+    color: #948c88;
+    transition: all .4s;
+}
+.embed-content .entry-title a
+{
+    color: #c2bdba;
+    transition: all .4s;
+}
+.embed-content .entry-content
+{
+    color: #dbdad8;
+    transition: all .4s;
+}
 
 /*アプリ紹介リンク*/
 .appreach
@@ -1042,6 +1080,7 @@ blockquote cite
     height: 40px;
     width: 134.5px;
 }
+
 /*カエレバ・ヨメレバ・トマレバ*/
 .cstmreba
 {
@@ -1458,6 +1497,7 @@ blockquote cite
         margin: 0.5% auto;
     }
 }
+
 /* 吹き出しのCSS　*/
 .entry-content .l-fuki,
 .entry-content .r-fuki
