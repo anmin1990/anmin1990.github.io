@@ -985,6 +985,21 @@ blockquote cite
     color: #242527;
     transition: all .4s;
 }
+.hatena-citation
+{
+    position: relative;
+    left: 77%;
+    bottom: 48px;
+    display: block;
+    font-style: italic;
+    font-size: 90%;
+    opacity: .75;
+}
+.hatena-citation a
+{
+    color: #3d4245;
+    transition: all .4s;
+}
 
 /*アプリ紹介リンク*/
 .appreach
