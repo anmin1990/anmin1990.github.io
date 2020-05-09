@@ -946,7 +946,6 @@ blockquote cite
         transform: translateY(0);
     }
 }
-
 /*はてなブログカードCSS*/
 .embed-wrapper
 {
@@ -973,7 +972,7 @@ blockquote cite
 .embed-wrapper *
 {
     word-wrap: break-word;
-    word-break: break-all;
+    /*word-break: break-all;*/
 } 
 .embed-header
 {
@@ -1126,7 +1125,6 @@ blockquote cite
 {
     vertical-align: middle;
 }
-
 /*アプリ紹介リンク*/
 .appreach
 {
