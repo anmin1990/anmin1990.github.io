@@ -946,24 +946,76 @@ blockquote cite
         transform: translateY(0);
     }
 }
-
-/*公式リンクカード*/
+/*はてなブログカードCSS*/
 .embed-wrapper
 {
     font-size: 13px;
     color: #dbdad8;
-    background: #18244a;
+    background-color: #18244a;
     width: 98%;
-    margin: auto;
+    margin: 36px auto;
     overflow: hidden;
+    border: 0px !important;
+    border-radius: 10px;
+    background-clip: padding-box;
     box-sizing: border-box;
     box-shadow: 0 2px 5px 0 rgba(255,255,255,.26);
-    border-radius: 10px;
-    transition: all .4s;
 }
 .embed-wrapper-inner
 {
-    padding: 12px 8px;
+    padding: 12px 8px !important;
+}
+.embed-wrapper-inner img
+{
+    box-shadow: none;
+}
+.embed-wrapper *
+{
+    word-wrap: break-word;
+    /*word-break: break-all;*/
+} 
+.embed-header
+{
+    position: relative;
+    padding-left: 35px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.embed-header .blog-icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-radius: 30px;
+    background-clip: padding-box;
+}
+.embed-logo .embed-logo-img
+{
+    vertical-align: middle;
+    opacity: .6;
+    width: 100px;
+    height: 18px;
+}
+.embed-header .blog-title, .embed-header .blog-user
+{
+    font-size: 12px;
+    line-height: 1.3;
+    overflow: hidden;
+    max-height: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+.embed-header .blog-title
+{
+    margin: 0;
+    color: #e0ffff;
+    margin-right: 110px;
 }
 .embed-wrapper .blog-title a
 {
@@ -975,32 +1027,104 @@ blockquote cite
     color: #948c88;
     transition: all .4s;
 }
+.embed-logo
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.embed-content.with-thumb
+{
+    min-height: 100px;
+}
+.embed-content
+{
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+.embed-content .thumb-wrapper
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.embed-content .thumb-wrapper .thumb
+{
+    width: 100px !important;
+    height: 100px !important;
+}
+.embed-content.with-thumb .entry-body
+{
+    margin-right: 110px;
+}
+.embed-content .entry-title
+{
+    font-size: 15px;
+    font-weight:bold;
+    border-left: 0px;
+    margin: 0 0 2px;
+    line-height: 1.4;
+    max-height: 47px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
 .embed-content .entry-title a
 {
-    color: #c2bdba;
+    font-size: 15px;
+    color: #c2dbda;
     transition: all .4s;
+}
+.embed-content .entry-title a:link, a:visited
+{
+    text-decoration: none;
 }
 .embed-content .entry-content
 {
+    line-height: 1.5;
+    font-size: 11px;
     color: #dbdad8;
+    max-height: 72px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
     transition: all .4s;
 }
-.hatena-citation
+.embed-content .lastmod
 {
+    display: none;
+}
+.embed-footer
+{
+    margin-top: 8px;
+    height: 15px;
     position: relative;
-    left: 77%;
-    bottom: 48px;
-    display: block;
-    font-style: italic;
-    font-size: 90%;
-    opacity: .75;
+    font-size: 11px;
 }
-.hatena-citation a
+.embed-footer .favicon
 {
-    color: #c2bdba;
-    transition: all .4s;
+    width: 16px;
+    height: 16px;
 }
-
+.embed-footer a
+{
+    color: #9aa5ab;
+}
+.embed-footer a:link, a:visited
+{
+    text-decoration: none;
+}
+.embed-footer .star-count
+{
+    padding-bottom: 1px;
+}
+.embed-footer img
+{
+    vertical-align: middle;
+}
 /*アプリ紹介リンク*/
 .appreach
 {
@@ -1070,6 +1194,12 @@ blockquote cite
 .appreach__developper, .appreach__price
 {
     margin-right: 0.5em;
+}
+.appreach__posted
+{
+    font-size: 10px !important;
+    display: block;
+    font-style: italic;
 }
 .appreach__posted a
 {
@@ -1191,6 +1321,7 @@ blockquote cite
 .cstmreba .tomarebalink-powered-date
 {
     font-size: 10px;
+    font-style: italic;
     line-height: 150%;
 }
 .cstmreba .booklink-powered-date a,
