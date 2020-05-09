@@ -950,21 +950,21 @@ blockquote cite
 /*はてなブログカードCSS*/
 .embed-wrapper
 {
-    background-color: #fff;
     font-size: 13px;
-    border: 1px solid rgba(0,0,0,.1);
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    border-radius: 3px;
+    color: #242527;
+    background-color: #f0f0f0;
+    width: 98%;
+    margin: 36px auto;
+    overflow: hidden;
+    border: 0px !important;
+    border-radius: 10px;
     background-clip: padding-box;
     box-sizing: border-box;
-    max-width: 500px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 }
 .embed-wrapper-inner
 {
-    padding: 12px;
+    padding: 12px 8px !important;
 }
 .embed-wrapper *
 {
@@ -992,6 +992,10 @@ blockquote cite
     border-radius: 30px;
     background-clip: padding-box;
 }
+.embed-header .lastmod
+{
+    display: none;
+}
 .embed-logo .embed-logo-img
 {
     vertical-align: middle;
@@ -1014,10 +1018,15 @@ blockquote cite
     color: #0e6ace;
     margin-right: 110px;
 }
-a:link, a:visited
+.embed-wrapper .blog-title a
 {
     color: #0e6ace;
-    text-decoration: none;
+    transition: all .4s;
+}
+.embed-wrapper .blog-user a
+{
+    color: #6b7377;
+    transition: all .4s;
 }
 .embed-logo
 {
@@ -1052,7 +1061,7 @@ a:link, a:visited
 }
 .embed-content .entry-title
 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight:bold;
     border-left: 0px;
     margin: 0 0 2px;
@@ -1065,8 +1074,9 @@ a:link, a:visited
 }
 .embed-content .entry-title a
 {
-    font-size: 17px;
-    color: #3d3f44;
+    font-size: 15px;
+    color: #3d4245;
+    transition: all .4s;
 }
 .embed-content .entry-title a:link, a:visited
 {
@@ -1075,12 +1085,14 @@ a:link, a:visited
 .embed-content .entry-content
 {
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 11px;
+    color: #242527;
     max-height: 72px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    transition: all .4s;
 }
 .embed-footer
 {
