@@ -998,9 +998,11 @@ blockquote cite
 .embed-logo .embed-logo-img
 {
     vertical-align: middle;
+    filter: invert(0);
     opacity: .6;
     width: 100px;
     height: 18px;
+    transition: all .4s;
 }
 .embed-header .blog-title, .embed-header .blog-user
 {
