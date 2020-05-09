@@ -960,6 +960,7 @@ blockquote cite
     background-clip: padding-box;
     box-sizing: border-box;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    transition: all .4s;
 }
 .embed-wrapper-inner
 {
