@@ -1197,6 +1197,12 @@ blockquote cite
 {
     margin-right: 0.5em;
 }
+.appreach__posted
+{
+    font-size: 10px !important;
+    display: block;
+    font-style: italic;
+}
 .appreach__posted a
 {
     margin-left: 0.5em;
@@ -1316,14 +1322,15 @@ blockquote cite
 .cstmreba .kaerebalink-powered-date,
 .cstmreba .tomarebalink-powered-date
 {
-    font-size:10px;
-    line-height:150%;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 150%;
 }
 .cstmreba .booklink-powered-date a,
 .cstmreba .kaerebalink-powered-date a,
 .cstmreba .tomarebalink-powered-date a
 {
-    color:#333;
+    color: #333;
     border-bottom: none ;
 }
 .cstmreba .booklink-powered-date a:hover,
