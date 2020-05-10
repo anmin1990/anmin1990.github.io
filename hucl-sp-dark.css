@@ -1159,13 +1159,10 @@ blockquote cite
 }
 .appreach__icon
 {
-    float: left;
     border-radius: 10%;
     overflow: hidden;
-    margin: 0 3% 0 0 !important;
-    width: 25% !important;
+    width: 50% !important;
     height: auto !important;
-    max-width: 120px !important;
 }
 .appreach__detail
 {
