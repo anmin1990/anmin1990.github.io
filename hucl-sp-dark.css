@@ -1287,11 +1287,14 @@ blockquote cite
     text-align: center;
     background: #fff;
 }
-.cstmreba .booklink-info,.cstmreba .kaerebalink-info,.cstmreba .tomarebalink-info
+.cstmreba .booklink-info,
+.cstmreba .kaerebalink-info,
+.cstmreba .tomarebalink-info
 {
     overflow: hidden;
     line-height: 170%;
     color: #dbdad8;
+    word-break: keep-all;
 }
 /* infoボックス内リンク下線非表示 */
 .cstmreba .booklink-info a,
@@ -1305,8 +1308,10 @@ blockquote cite
 .cstmreba .kaerebalink-name>a,
 .cstmreba .tomarebalink-name>a 
 {
-    border-bottom: 1px solid ;
+    color: #dbdad8;
     font-size: 16px;
+    word-break: keep-all;
+    transition: all .4s;
 }
 /* タイトル下にPタグ自動挿入された際の余白を小さく */
 .cstmreba .kaerebalink-name p,
