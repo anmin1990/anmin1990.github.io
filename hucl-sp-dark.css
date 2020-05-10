@@ -1132,7 +1132,7 @@ blockquote cite
 .appreach
 {
     width: 98%;
-    text-align: left;
+    text-align: center;
     margin: 36px auto;
     padding: 5% 8px 10%;
     /*border: 1px solid #7C7C7C;*/
@@ -1169,11 +1169,10 @@ blockquote cite
 }
 .appreach__detail
 {
-    display: inline-block;
+    display: block;
     font-size: 20px;
     line-height: 1.5;
-    width: 72%;
-    max-width: 72%;
+    width: 100%;
 }
 .appreach__detail:after
 {
@@ -1212,6 +1211,7 @@ blockquote cite
 }
 .appreach__links
 {
+    width: 100%;
     float: left;
     height: 40px;
     margin-top: 5%;
