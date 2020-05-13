@@ -774,37 +774,253 @@ blockquote cite
     color: #888888;
     font-size: 0.9em;
 }
-/*注意*/
-.entry-content .caution
+/* 警告・注意など */
+.entry-content .dainger
 {
+    position: relative;
+    margin: 36px auto;
+    padding: 30px 15px 15px;
+    border: 1px solid #b9001a;
     border-radius: 5px;
-    border: 2px solid #FF8C00;
-    background-color: #FFC680;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    color: #b9001a;
+    background: #000000;
+    box-sizing: border-box;
 }
-/*警告*/
+.entry-content .dainger::before
+{
+    position: absolute;
+    top: -16px;
+    left: 50px;
+    padding: 0 10px;
+    border: 0;
+    border-top: 1px solid #b9001a;
+    border-bottom: 1px solid #b9001a;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #b9001a;
+    background: #000000;
+    content: "DAINGER";
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.entry-content .dainger::after
+{
+    position: absolute;
+    top: -23px;
+    left: 11px;
+    width: 46px;
+    height: 46px;
+    border: 0;
+    border-top: 1px solid #b9001a;
+    border-bottom: 1px solid #b9001a;
+    border-radius: 50%;
+    color: #b9001a;
+    background: #000;
+    line-height: 43px;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f714";
+    font-size: 30px;
+    box-sizing: border-box;
+}
 .entry-content .warning
 {
+    position: relative;
+    margin: 36px auto;
+    padding: 30px 15px 15px;
     border-radius: 5px;
-    border: 2px solid #ff0000;
-    background-color: #FA817D;
-    color: #242527;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    color: #ffffff;
+    background: #b9001a;
 }
-/*チェック*/
+.entry-content .warning::before
+{
+    position: absolute;
+    top: -16px;
+    left: 50px;
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #ffffff;
+    background: #b9001a;
+    content: "WARNING";
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 1;
+}
+.entry-content .warning::after
+{
+    position: absolute;
+    top: -24px;
+    left: 11px;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #b9001a;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f12a";
+    font-size: 30px;
+}
+.entry-content .caution
+{
+    position: relative;
+    margin: 36px auto;
+    padding: 30px 15px 15px;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #f6aa00;
+}
+.entry-content .caution::before
+{
+    position: absolute;
+    top: -16px;
+    left: 50px;
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #000000;
+    background: #f6aa00;
+    content: "CAUTION";
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 1;
+}
+.entry-content .caution::after
+{
+    position: absolute;
+    top: -24px;
+    left: 11px;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 50%;
+    color: #000000;
+    background-color: #f6aa00;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f071";
+    font-size: 30px;
+}
 .entry-content .check
 {
+    position: relative;
+    margin: 36px auto;
+    padding: 30px 15px 15px;
     border-radius: 5px;
-    border: 2px solid #00BFFF;
-    background-color: #66ffff;
-    color: #242527;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
+    color: #ffffff;
+    background-color: #1971ff;
+}
+.entry-content .check::before
+{
+    position: absolute;
+    top: -16px;
+    left: 50px;
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #ffffff;
+    background: #1971ff;
+    content: "Check!";
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 1;
+}
+.entry-content .check::after
+{
+    position: absolute;
+    top: -24px;
+    left: 11px;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #1971ff;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 30px;
+}
+.entry-content .check .enbed-wrapper,
+.entry-content .check .appreach,
+.entry-content .check .cstmreba
+{
+    margin: 0px auto !important;
+}
+.entry-content .point
+{
+    position: relative;
+    margin: 36px auto;
+    padding: 30px 15px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #00b060;
+}
+.entry-content .point::before
+{
+    position: absolute;
+    top: -16px;
+    left: 50px;
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #ffffff;
+    background: #00b060;
+    content: "Point";
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 1;
+}
+.entry-content .point::after
+{
+    position: absolute;
+    top: -24px;
+    left: 11px;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #00b060;
+    line-height: 45px;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f0a6";
+    font-size: 30px;
 }
 /*コード*/
 .entry-content pre
