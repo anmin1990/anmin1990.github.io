@@ -779,7 +779,7 @@ blockquote cite
 {
     position: relative;
     margin: 36px auto;
-    padding: 30px 15px 15px 35px;
+    padding: 30px 15px 15px;
     border: 1px solid #b9001a;
     border-radius: 5px;
     color: #b9001a;
@@ -832,7 +832,7 @@ blockquote cite
 {
     position: relative;
     margin: 36px auto;
-    padding: 30px 15px 15px 35px;
+    padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
     background: #b9001a;
@@ -879,7 +879,7 @@ blockquote cite
 {
     position: relative;
     margin: 36px auto;
-    padding: 30px 15px 15px 35px;
+    padding: 30px 15px 15px;
     border-radius: 5px;
     color: #000000;
     background-color: #f6aa00;
@@ -926,7 +926,7 @@ blockquote cite
 {
     position: relative;
     margin: 36px auto;
-    padding: 30px 15px 15px 35px;
+    padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
     background-color: #1971ff;
@@ -969,11 +969,17 @@ blockquote cite
     content: "\f00c";
     font-size: 30px;
 }
+.entry-content .check .enbed-wrapper,
+.entry-content .check .appreach,
+.entry-content .check .cstmreba
+{
+    margin: 0px auto !important;
+}
 .entry-content .point
 {
     position: relative;
     margin: 36px auto;
-    padding: 30px 15px 15px 35px;
+    padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
     background-color: #00b060;
