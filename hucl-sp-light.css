@@ -810,17 +810,17 @@ blockquote cite
 .entry-content .dainger::after
 {
     position: absolute;
-    top: -24px;
+    top: -23px;
     left: 11px;
-    width: 45px;
-    height: 45px;
+    width: 46px;
+    height: 46px;
     border: 0;
     border-top: 1px solid #b9001a;
     border-bottom: 1px solid #b9001a;
     border-radius: 50%;
     color: #b9001a;
     background: #000;
-    line-height: 45px;
+    line-height: 43px;
     text-align: center;
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
