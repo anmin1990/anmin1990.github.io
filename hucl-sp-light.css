@@ -791,6 +791,7 @@ blockquote cite
     left: 50px;
     padding: 0 10px;
     border: 0;
+    border-top: 1px solid #b9001a;
     border-bottom: 1px solid #b9001a;
     border-radius: 15px;
     border-top-left-radius: 0px;
@@ -801,6 +802,7 @@ blockquote cite
     font-family: 'Exo', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    box-sizing: border-box;
     z-index: 1;
 }
 .entry-content .dainger::after
@@ -811,6 +813,7 @@ blockquote cite
     width: 45px;
     height: 45px;
     border: 0;
+    border-top: 1px solid #b9001a;
     border-bottom: 1px solid #b9001a;
     border-radius: 50%;
     color: #b9001a;
@@ -821,6 +824,7 @@ blockquote cite
     font-family: "Font Awesome 5 Free";
     content: "\f714";
     font-size: 30px;
+    box-sizing: border-box;
 }
 .entry-content .warning
 {
