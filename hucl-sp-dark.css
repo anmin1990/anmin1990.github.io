@@ -1022,6 +1022,14 @@ blockquote cite
     content: "\f0a6";
     font-size: 30px;
 }
+.entry-content ul.dainger,
+.entry-content ul.warning,
+.entry-content ul.caution,
+.entry-content ul.check,
+.entry-content ul.point
+{
+    padding-left: 3.5em;
+}
 /*コード*/
 .entry-content pre
 {
