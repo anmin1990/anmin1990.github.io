@@ -780,9 +780,11 @@ blockquote cite
     position: relative;
     margin: 36px auto;
     padding: 30px 15px 15px 35px;
+    border: 1px solid #b9001a;
     border-radius: 5px;
     color: #b9001a;
     background: #000000;
+    box-sizing: border-box;
 }
 .entry-content .dainger::before
 {
