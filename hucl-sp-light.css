@@ -250,8 +250,11 @@
 {
     color: #f0f0f0;
 }
-.menu-bar_logoWrap {
+.menu-bar_logoWrap
+{
     height: 100%;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
 }
 #js-menuBk /*背景をタップするとメニューを閉じる*/
 {
