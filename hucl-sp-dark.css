@@ -1151,6 +1151,15 @@ blockquote cite
     overflow: hidden;
     transition: all .4s;
 }
+.pager-permalink .pager-group-thumb img
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+}
 /*記事一覧ボタン*/
 .pager-archive
 {
