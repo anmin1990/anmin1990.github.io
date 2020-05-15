@@ -1131,10 +1131,11 @@ blockquote cite
     width: 49%;
     height: 1.7em;
     margin: 0 auto .5em;
-    border-top: 1px solid #221a17;
-    border-bottom: 1px solid #221a17;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     font-size: 75%;
-    background: #f0f0f0;
+    color: #dcdad8;
+    background: #18244a;
     transition: all .4s;
 }
 .pager-permalink .pager-anchor
@@ -1143,7 +1144,7 @@ blockquote cite
     width: 49%;
     height: 4.5em;
     margin: 1.5em auto .5em;
-    border-bottom: 1px solid #221a17;
+    border-bottom: 1px solid #ccc;
     transition: all .4s;
 }
 /*記事一覧ボタン*/
