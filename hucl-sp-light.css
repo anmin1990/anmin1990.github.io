@@ -1115,6 +1115,37 @@ blockquote cite
     font-size: 95%;
     transition: all .4s;
 }
+/* 前の記事・次の記事 */
+.pager-permalink .pager-permalink-wrapper
+{
+    position: relative;
+    width: 93.75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+.pager-permalink .pager-heading
+{
+    position: absolute;
+    display: inline-block;
+    width: 49%;
+    height: 1.7em;
+    margin: 0 auto .5em;
+    border-top: 1px solid #dde5e8;
+    border-bottom: 1px solid #dde5e8;
+    font-size: 75%;
+    background: #f0f0f0;
+    transition: all .4s;
+}
+.pager-permalink .pager-anchor
+{
+    display: inline-block;
+    width: 49%;
+    height: 4.5em;
+    margin: 1.5em auto .5em;
+    border-bottom: 1px solid #dde5e8;
+    transition: all .4s;
+}
 /*記事一覧ボタン*/
 .pager-archive
 {
