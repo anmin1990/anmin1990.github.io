@@ -1110,9 +1110,12 @@ blockquote cite
 /*記事下リンク*/
 .pager-permalink .pager-entry-title
 {
+    display: -webkit-box;
     color: #242527;
     font-weight: 700;
     font-size: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
     transition: all .4s;
 }
 /* 前の記事・次の記事 */
@@ -1145,6 +1148,7 @@ blockquote cite
     height: 4.5em;
     margin: 1.5em auto .5em;
     border-bottom: 1px solid #333;
+    overflow: hidden;
     transition: all .4s;
 }
 /*記事一覧ボタン*/
