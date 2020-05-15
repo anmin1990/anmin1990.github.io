@@ -1169,6 +1169,12 @@ blockquote cite
     font-size: 80%;
     transition: all .4s;
 }
+/* コメント一覧 */
+.comment-content
+{
+    color: #dbdad8;
+    transition: all .4s;
+}
 
 /*スクロールフェードインDown用*/
 .fadeInDown
