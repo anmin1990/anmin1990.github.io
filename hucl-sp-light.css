@@ -1154,13 +1154,13 @@ blockquote cite
     overflow: hidden;
     transition: all .4s;
 }
-.pager-permalink-wrapper:nth-child(1),
-.pager-permalink-wrapper:nth-child(2)
+.pager-permalink .pager-heading:nth-child(1),
+.pager-permalink .pager-anchor:nth-child(1)
 {
     left: 0;
 }
-.pager-permalink-wrapper:nth-last-child(1),
-.pager-permalink-wrapper:nth-last-child(2)
+.pager-permalink .pager-heading:nth-last-child(1),
+.pager-permalink .pager-anchor:nth-last-child(1)
 {
     right: 0;
 }
