@@ -1124,6 +1124,7 @@ blockquote cite
 {
     position: relative;
     width: 93.75%;
+    height: 6em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
@@ -1144,6 +1145,7 @@ blockquote cite
 }
 .pager-permalink .pager-anchor
 {
+    position: absolute;
     display: inline-block;
     width: 49%;
     height: 4.5em;
@@ -1151,6 +1153,16 @@ blockquote cite
     border-bottom: 1px solid #333;
     overflow: hidden;
     transition: all .4s;
+}
+.pager-permalink .pager-permalink-wrapper:nth-child(1),
+.pager-permalink .pager-permalink-wrapper:nth-child(2)
+{
+    left: 0;
+}
+.pager-permalink .pager-permalink-wrapper:nth-last-child(1),
+.pager-permalink .pager-permalink-wrapper:nth-last-child(2)
+{
+    right: 0;
 }
 .pager-permalink .pager-group-thumb img
 {
