@@ -1111,6 +1111,7 @@ blockquote cite
 .entry-footer .pager-entry-title
 {
     display: -webkit-box;
+    margin-left: 60px;
     color: #dbdad8;
     font-weight: 700;
     font-size: 95%;
