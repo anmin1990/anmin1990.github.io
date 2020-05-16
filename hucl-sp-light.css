@@ -1119,16 +1119,16 @@ blockquote cite
     transition: all .4s;
 }
 /* 前の記事・次の記事 */
-.pager-permalink .pager-permalink-wrapper
+.entry-footer .pager-permalink-wrapper
 {
     position: relative;
-    width: 93.75%;
+    width: 100%;
     height: 6em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
 }
-.pager-permalink .pager-heading
+.entry-footer .pager-heading
 {
     position: absolute;
     display: inline-block;
@@ -1142,7 +1142,7 @@ blockquote cite
     background: #f0f0f0;
     transition: all .4s;
 }
-.pager-permalink .pager-anchor
+.entry-footer .pager-anchor
 {
     position: relative;
     display: inline-block;
@@ -1154,7 +1154,7 @@ blockquote cite
     overflow: hidden;
     transition: all .4s;
 }
-.pager-permalink .pager-group-thumb img
+.entry-footer .pager-group-thumb img
 {
     position: absolute;
     width: 50px;
