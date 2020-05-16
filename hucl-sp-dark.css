@@ -1124,7 +1124,6 @@ blockquote cite
 {
     position: relative;
     width: 93.75%;
-    height: 6em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
@@ -1145,7 +1144,6 @@ blockquote cite
 }
 .pager-permalink .pager-anchor
 {
-    position: absolute;
     display: inline-block;
     width: 49%;
     height: 4.5em;
