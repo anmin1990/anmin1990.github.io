@@ -1146,7 +1146,6 @@ blockquote cite
 .pager-permalink .pager-anchor
 {
     position: absolute;
-    right: 0;
     display: inline-block;
     width: 49%;
     height: 4.5em;
