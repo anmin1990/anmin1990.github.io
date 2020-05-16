@@ -1108,7 +1108,7 @@ blockquote cite
     transition: all .4s;
 }
 /*記事下リンク*/
-.pager-permalink .pager-entry-title
+.entry-footer .pager-entry-title
 {
     display: -webkit-box;
     color: #dbdad8;
@@ -1118,7 +1118,6 @@ blockquote cite
     -webkit-line-clamp: 3;
     transition: all .4s;
 }
-/* 前の記事・次の記事 */
 .entry-footer .pager-permalink-wrapper
 {
     position: relative;
