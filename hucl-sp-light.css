@@ -1163,7 +1163,7 @@ blockquote cite
     transform: translateY(-50%);
     max-width: 100%;
 }
-.pager-permalink .pager-heading::first-child::before
+.pager-permalink .pager-heading::before
 {
     margin-right: 3px;
     font-family: "Font Awesome 5 Free";
