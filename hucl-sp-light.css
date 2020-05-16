@@ -1163,14 +1163,6 @@ blockquote cite
     transform: translateY(-50%);
     max-width: 100%;
 }
-.pager-permalink-wrapper .pager-heading::first-of-type::before
-{
-    margin: 0 3px ;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-style: normal;
-    content: '\f0d9';
-}
 /*記事一覧ボタン*/
 .pager-archive
 {
