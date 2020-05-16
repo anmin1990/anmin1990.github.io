@@ -1114,7 +1114,6 @@ blockquote cite
     color: #dbdad8;
     font-weight: 700;
     font-size: 95%;
-    line-height: 1.5em;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     transition: all .4s;
@@ -1151,6 +1150,7 @@ blockquote cite
     height: 4.5em;
     margin: 1.5em auto .5em;
     border-bottom: 1px solid #ccc;
+    line-height: 1.5em;
     overflow: hidden;
     transition: all .4s;
 }
