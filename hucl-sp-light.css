@@ -735,13 +735,16 @@ ul.table-of-contents li
 .entry-content blockquote
 {
     position: relative;
-    padding: 10px 10px 10px 32px;
+    width: 98%;
+    margin: 36px auto;
+    padding: 10px 30px 30px 30px;
     border: 0;
     border-radius: 10px;
     box-sizing: border-box;
     font-style: italic;
-    color: #464646 !important;
+    color: #242527 !important;
     background: #f0f0f0;
+    transition: all .4s;
 }
 .entry-content blockquote:before
 {
@@ -757,6 +760,7 @@ ul.table-of-contents li
     line-height: 1;
     z-index: 2;
     font-weight: 900;
+    transition: all .4s;
 }
 .entry-content blockquote:after
 {
@@ -773,6 +777,7 @@ ul.table-of-contents li
     width: 0;
     box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.3);
     transform: rotate(90deg);
+    transition: all .4s;
 }
 .entry-content blockquote p
 {
@@ -780,11 +785,15 @@ ul.table-of-contents li
     padding: 0;
     margin: 10px 0;
     z-index: 3;
+    font-style: italic !important;
     line-height: 1.7;
+    transition: all .4s;
 }
 .entry-content blockquote span
 {
     color: #242527 !important;
+    font-style: italic !important;
+    transition: all .4s;
 }
 .entry-content blockquote cite
 {
