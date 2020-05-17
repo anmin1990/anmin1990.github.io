@@ -1108,17 +1108,6 @@ blockquote cite
     transition: all .4s;
 }
 /*記事下リンク*/
-.entry-footer .pager-entry-title
-{
-    display: -webkit-box;
-    margin-left: 60px;
-    color: #dbdad8;
-    font-weight: 700;
-    font-size: 95%;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    transition: all .4s;
-}
 .entry-footer .pager-permalink-wrapper
 {
     position: relative;
@@ -1127,20 +1116,6 @@ blockquote cite
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-}
-.entry-footer .pager-heading
-{
-    position: absolute;
-    display: inline-block;
-    width: 49%;
-    height: 1.7em;
-    margin: 0 auto .5em;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    font-size: 75%;
-    color: #dcdad8;
-    background: #18244a;
-    transition: all .4s;
 }
 .entry-footer .pager-anchor
 {
@@ -1154,6 +1129,27 @@ blockquote cite
     overflow: hidden;
     transition: all .4s;
 }
+.entry-footer .pager-permalink-group
+{
+  	display: table;
+  	margin-bottom: .8em;
+  	table-layout: fixed;
+  	width: 100%;
+}
+.entry-footer .pager-permalink-next
+{
+  	margin-bottom: .5em;
+}
+.entry-footer .pager-permalink-group-inner
+{
+  	display: table-cell;
+  	vertical-align: middle;
+}
+.entry-footer .pager-group-thumb
+{
+  	width: 50px;
+    padding-right: 10px;
+}
 .entry-footer .pager-group-thumb img
 {
     position: absolute;
@@ -1162,6 +1158,30 @@ blockquote cite
     top: 50%;
     transform: translateY(-50%);
     max-width: 100%;
+}
+.entry-footer .pager-heading
+{
+    position: absolute;
+    display: inline-block;
+    width: 49%;
+    height: 1.7em;
+    margin: 0 auto .5em;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    font-size: 75%;
+    color: #dbdad8;
+    background: #18244a;
+    transition: all .4s;
+}
+.entry-footer .pager-entry-title
+{
+    display: -webkit-box;
+    color: #dbdad8;
+    font-weight: 700;
+    font-size: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    transition: all .4s;
 }
 /*記事一覧ボタン*/
 .pager-archive
