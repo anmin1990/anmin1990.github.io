@@ -1147,7 +1147,17 @@ blockquote cite
 }
 .entry-footer .pager-group-thumb
 {
-  	width: 50px
+  	width: 50px;
+    padding-right: 10px;
+}
+.entry-footer .pager-group-thumb img
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
 }
 .entry-footer .pager-heading
 {
@@ -1163,23 +1173,9 @@ blockquote cite
     background: #f0f0f0;
     transition: all .4s;
 }
-.entry-footer .pager-group-thumb
-{
-  	padding-right: 10px
-}
-.entry-footer .pager-group-thumb img
-{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 100%;
-}
 .entry-footer .pager-entry-title
 {
     display: -webkit-box;
-    margin-left: 60px;
     color: #242527;
     font-weight: 700;
     font-size: 95%;
