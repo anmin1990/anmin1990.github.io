@@ -735,23 +735,24 @@ ul.table-of-contents li
 .entry-content blockquote
 {
     position: relative;
-    border-left: 0;
     padding: 10px 10px 10px 32px;
+    border: 0;
+    border-radius: 10px;
     box-sizing: border-box;
     font-style: italic;
-    color: #464646;
-    background: #e0e0e0;
+    color: #464646 !important;
+    background: #f0f0f0;
 }
 .entry-content blockquote:before
 {
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     vertical-align: middle;
     font-family: "Font Awesome 5 Free";
     content: "\f10d";
-    color: #e0e0e0;
+    color: #242527;
     font-size: 22px;
     line-height: 1;
     z-index: 2;
@@ -759,13 +760,19 @@ ul.table-of-contents li
 }
 .entry-content blockquote:after
 {
+    content: "";
     position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    border-width: 0 0 40px 40px;
+    bottom: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
     border-style: solid;
-    border-color: transparent #ffffff;
+    border-bottom-left-radius: 10px;
+    border-color: #fff #fff #d0d0d0 #d0d0d0;
+    background: #f0f0f0;
+    display: block;
+    width: 0;
+    box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.3);
+    transform: rotate(90deg);
 }
 .entry-content blockquote p
 {
@@ -775,7 +782,11 @@ ul.table-of-contents li
     z-index: 3;
     line-height: 1.7;
 }
-blockquote cite
+.entry-content blockquote span
+{
+    color: #242527 !important;
+}
+.entry-content blockquote cite
 {
     display: block;
     text-align: right;
