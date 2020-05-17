@@ -735,37 +735,49 @@ ul.table-of-contents li
 .entry-content blockquote
 {
     position: relative;
-    border-left: 0;
-    padding: 10px 10px 10px 32px;
+    width: 98%;
+    margin: 36px auto;
+    padding: 10px 30px 30px 30px;
+    border: 0;
+    border-radius: 10px;
     box-sizing: border-box;
     font-style: italic;
-    color: rgb(136, 153, 166);
-    background: rgb(28, 41, 56);
+    color: #dbdad8 !important;
+    background: #18244a;
+    transition: all .4s;
 }
 .entry-content blockquote:before
 {
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     vertical-align: middle;
     font-family: "Font Awesome 5 Free";
     content: "\f10d";
-    color: rgb(136, 153, 166);
+    color: #dbdad8;
     font-size: 22px;
     line-height: 1;
     z-index: 2;
     font-weight: 900;
+    transition: all .4s;
 }
 .entry-content blockquote:after
 {
+    content: "";
     position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    border-width: 0 0 40px 40px;
+    bottom: 0;
+    right: 0;
+    border-width: 0 30px 30px 0;
     border-style: solid;
-    border-color: transparent #ffffff;
+    border-bottom-left-radius: 10px;
+    border-color: #10171e #10171e #18244a #18244a;
+    background: #18244a;
+    display: block;
+    width: 0;
+    box-shadow: -2px 2px 2px 0px rgba(255,255,255,0.3);
+    transform: rotate(90deg);
+    transition: all .4s;
 }
 .entry-content blockquote p
 {
@@ -773,9 +785,17 @@ ul.table-of-contents li
     padding: 0;
     margin: 10px 0;
     z-index: 3;
+    font-style: italic !important;
     line-height: 1.7;
+    transition: all .4s;
 }
-blockquote cite
+.entry-content blockquote span
+{
+    color: #242527 !important;
+    font-style: italic !important;
+    transition: all .4s;
+}
+.entry-content blockquote cite
 {
     display: block;
     text-align: right;
