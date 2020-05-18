@@ -646,7 +646,11 @@
 {
     display: none;
 }
-
+/* コンテンツ領域 */
+entry-content
+{
+    overflow-x: visible;
+}
 /*タイトル*/
 .entry-title a
 {
@@ -1063,22 +1067,25 @@ ul.table-of-contents li
 {
     font-size: 80% !important;
     line-height: 1.25em !important;
-    border: 1px solid #dddddd !important;
-    margin: 0 0 10px !important;
+    margin: 36px calc(50% - 50vw) !important;
     padding: 10px !important;
+    border: 0px !important;
+    border-top: 1px solid #dddddd !important;
+    border-bottom: 1px solid #dddddd !important;
     white-space: pre !important;
     color: #ffffff !important;
-    background-color: #4f4f4f !important;
+    background-color: #2f2f2f !important;
+    overflow: scroll !important;
 }
 .entry-content code
 {
     font-size: 90%;
     margin: 0 2px;
     padding: 0 5px;
-    color: #242527;
     border: 1px solid #eaeaea;
-    background-color: #f8f8f8;
     border-radius: 3px;
+    color: #242527;
+    background-color: #f8f8f8;
     font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
 }
 /*画像脚注*/
