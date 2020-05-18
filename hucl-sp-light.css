@@ -647,7 +647,7 @@
     display: none;
 }
 /* コンテンツ領域 */
-entry-content
+.entry-content
 {
     overflow-x: visible;
 }
