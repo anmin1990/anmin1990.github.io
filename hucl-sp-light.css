@@ -1152,6 +1152,7 @@ ul.table-of-contents li
 .entry-footer .pager-anchor
 {
     position: relative;
+    left: 24.5%;
     display: inline-block;
     width: 49%;
     height: 4.5em;
@@ -1159,27 +1160,28 @@ ul.table-of-contents li
     border-bottom: 1px solid #333;
     line-height: 1.5em;
     overflow: hidden;
+    transform: translateX(-50%);
     transition: all .4s;
 }
 .entry-footer .pager-permalink-group
 {
-  	display: table;
-  	margin-bottom: .8em;
-  	table-layout: fixed;
-  	width: 100%;
+    display: table;
+    margin-bottom: .8em;
+    table-layout: fixed;
+    width: 100%;
 }
 .entry-footer .pager-permalink-next
 {
-  	margin-bottom: .5em;
+    margin-bottom: .5em;
 }
 .entry-footer .pager-permalink-group-inner
 {
-  	display: table-cell;
-  	vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 .entry-footer .pager-group-thumb
 {
-  	width: 50px;
+    width: 50px;
     padding-right: 10px;
 }
 .entry-footer .pager-group-thumb img
