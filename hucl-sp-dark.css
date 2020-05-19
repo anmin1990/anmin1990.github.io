@@ -1156,7 +1156,7 @@ ul.table-of-contents li
     width: 49.5%;
     height: 4.5em;
     margin: 1.5em auto .5em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
     line-height: 1.5em;
     overflow: hidden;
     transition: all .4s;
