@@ -1068,14 +1068,16 @@ ul.table-of-contents li
     font-size: 80% !important;
     line-height: 1.25em !important;
     margin: 36px calc(50% - 50vw) !important;
-    padding: 10px !important;
+    padding: 12px 18px !important;
     border: 0px !important;
     border-top: 1px solid #dddddd !important;
     border-bottom: 1px solid #dddddd !important;
+    box-sizing: border-box !important;
     white-space: pre !important;
-    color: #ffffff !important;
+    color: #dbdad8 !important;
+    word-wrap: normal !important;
     background-color: #2f2f2f !important;
-    overflow-x: scroll !important;
+    overflow-x: auto !important;
 }
 .entry-content code
 {
@@ -1085,7 +1087,7 @@ ul.table-of-contents li
     border: 1px solid #eaeaea;
     border-radius: 3px;
     color: #242527;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
 }
 /*画像脚注*/
