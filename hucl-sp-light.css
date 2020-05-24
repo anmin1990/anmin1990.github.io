@@ -1092,6 +1092,16 @@ ul.table-of-contents li
     background-color: #f0f0f0;
     font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
 }
+.fancybox-container
+{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.fancybox-bg
+{
+    background: rgba(0,0,0,.6);
+}
 /*画像脚注*/
 .figure-image figcaption
 {
