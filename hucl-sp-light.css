@@ -1111,7 +1111,7 @@ ul.table-of-contents li
 /*画像の影*/
 .entry-content img
 {
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
     transition: all .4s;
 }
 /*名前・ID・投稿日*/
