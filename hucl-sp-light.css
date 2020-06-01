@@ -91,9 +91,11 @@
 /* 段差で背景画像のアニメーションを実行 */
 #original-hedder .src0
 {
-    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190217/20190217192009.png);
+    background: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225911.png);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
     z-index: 4; /*stick menu bar < 13*/
 }
 #original-hedder .src0 a
@@ -104,67 +106,67 @@
 }
 #original-hedder .src1
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004132.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225247.jpg);
     background-size: cover;
     animation-delay: 0s;
 }
 #original-hedder .src2
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004259.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225415.jpg);
     background-size: cover;
     animation-delay: 7s;
 }
 #original-hedder .src3
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004241.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225337.jpg);
     background-size: cover;
     animation-delay: 14s;
 }
 #original-hedder .src4
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004741.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225724.jpg);
     background-size: cover;
     animation-delay: 21s;
 }
 #original-hedder .src5
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004619.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225556.jpg);
     background-size: cover;
     animation-delay: 28s;
 }
 #original-hedder .src6
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004634.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225618.jpg);
     background-size: cover;
     animation-delay: 35s;
 }
 #original-hedder .src7
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004514.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225530.jpg);
     background-size: cover;
     animation-delay: 42s;
 }
 #original-hedder .src8
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004311.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225445.jpg);
     background-size: cover;
     animation-delay: 49s;
 }
 #original-hedder .src9
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004850.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225819.jpg);
     background-size: cover;
     animation-delay: 56s;
 }
 #original-hedder .src10
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004831.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225753.jpg);
     background-size: cover;
     animation-delay: 63s;
 }
 #original-hedder .src11
 {
-    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20190213/20190213004725.jpg);
+    background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/anmin_1990/20200601/20200601225644.jpg);
     background-size: cover;
     animation-delay: 70s;
 }
