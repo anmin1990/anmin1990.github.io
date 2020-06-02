@@ -553,7 +553,9 @@
 .list-entry-article, .entry-list a:first-child .list-entry-article
 {
     border: 1px solid #333;
-    margin: 0px 3px 7px;
+    margin: 0px 3px 14px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     transition: all .4s;
 }
 .list-entry-article .thumb-image
