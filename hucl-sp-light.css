@@ -1084,6 +1084,7 @@ ul.table-of-contents li
     word-wrap: normal !important;
     background-color: #2f2f2f !important;
     overflow-x: auto !important;
+    transition: all .4s;
 }
 .entry-content .lang-html
 {
@@ -1101,6 +1102,7 @@ ul.table-of-contents li
     line-height: normal;
     color: #ffffff;
     background: #b9001a;
+    transition: all .4s;
 }
 .entry-content .lang-css
 {
@@ -1118,6 +1120,7 @@ ul.table-of-contents li
     line-height: normal;
     color: #000000;
     background: #f6aa00;
+    transition: all .4s;
 }
 .entry-content code
 {
