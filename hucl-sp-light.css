@@ -1074,16 +1074,50 @@ ul.table-of-contents li
     font-size: 80% !important;
     line-height: 1.25em !important;
     margin: 36px calc(50% - 50vw) !important;
-    padding: 12px 18px !important;
+    padding: 25px 18px 12px !important;
     border: 0px !important;
-    border-top: 1px solid #dddddd !important;
-    border-bottom: 1px solid #dddddd !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
     box-sizing: border-box !important;
     white-space: pre !important;
     color: #ffffff !important;
     word-wrap: normal !important;
     background-color: #2f2f2f !important;
     overflow-x: auto !important;
+}
+.entry-content .lang-html
+{
+    position: relative;
+    border-color: #b9001a !important;
+}
+.entry-content .lang-html::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    content: " html ";
+    font-size: 1rem;
+    line-height: normal;
+    color: #ffffff;
+    background: #b9001a;
+}
+.entry-content .lang-css
+{
+    position: relative;
+    border-color: #f6aa00 !important;
+}
+.entry-content .lang-css::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    content: " css ";
+    font-size: 1rem;
+    line-height: normal;
+    color: #000000;
+    background: #f6aa00;
 }
 .entry-content code
 {
