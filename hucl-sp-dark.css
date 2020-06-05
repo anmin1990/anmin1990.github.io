@@ -1260,6 +1260,11 @@ ul.table-of-contents li
     background: #18244a;
     transition: all .4s;
 }
+.entry-footer .pager-heading-next-date,
+.entry-footer .pager-heading-prev-date
+{
+    font-family: 'Exo', sans-serif;
+}
 .entry-footer .pager-entry-title
 {
     display: -webkit-box;
