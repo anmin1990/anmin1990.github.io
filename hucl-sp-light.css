@@ -1264,6 +1264,7 @@ ul.table-of-contents li
 .entry-footer .pager-heading-prev-date
 {
     font-family: 'Exo', sans-serif;
+    font-style: italic;
 }
 .entry-footer .pager-entry-title
 {
