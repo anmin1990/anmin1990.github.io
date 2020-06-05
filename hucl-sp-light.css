@@ -1277,6 +1277,10 @@ ul.table-of-contents li
     transition: all .4s;
 }
 /*関連記事*/
+.urllist-with-thumbnails li .urllist-image
+{
+    margin: .7em .7em .7em 0;
+}
 .urllist-entry-body
 {
     overflow: auto;
