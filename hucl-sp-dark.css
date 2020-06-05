@@ -1276,6 +1276,11 @@ ul.table-of-contents li
     -webkit-line-clamp: 3;
     transition: all .4s;
 }
+/*関連記事*/
+.urllist-entry-body
+{
+    overflow: auto;
+}
 /*記事一覧ボタン*/
 .pager-archive
 {
