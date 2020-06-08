@@ -1132,6 +1132,7 @@ ul.table-of-contents li
     color: #242527;
     background-color: #f0f0f0;
     font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
+    transition: all .4s;
 }
 .fancybox-container
 {
