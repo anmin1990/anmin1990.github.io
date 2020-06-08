@@ -1129,9 +1129,10 @@ ul.table-of-contents li
     padding: 0 5px;
     border: 1px solid #eaeaea;
     border-radius: 3px;
-    color: #242527;
+    color: #000103;
     background-color: #f0f0f0;
     font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace,sans-serif;
+    transition: all .4s;
 }
 .fancybox-container
 {
