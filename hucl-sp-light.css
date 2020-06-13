@@ -816,7 +816,7 @@ ul.table-of-contents li
 .dainger
 {
     position: relative;
-    margin: 36px auto;
+    margin: 36px auto !important;
     padding: 30px 15px 15px;
     border: 1px solid #b9001a;
     border-radius: 5px;
@@ -869,7 +869,7 @@ ul.table-of-contents li
 .warning
 {
     position: relative;
-    margin: 36px auto;
+    margin: 36px auto !important;
     padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
@@ -916,7 +916,7 @@ ul.table-of-contents li
 .caution
 {
     position: relative;
-    margin: 36px auto;
+    margin: 36px auto !important;
     padding: 30px 15px 15px;
     border-radius: 5px;
     color: #000000;
@@ -963,7 +963,7 @@ ul.table-of-contents li
 .check
 {
     position: relative;
-    margin: 36px auto;
+    margin: 36px auto !important;
     padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
@@ -1028,7 +1028,7 @@ ul.table-of-contents li
 .point
 {
     position: relative;
-    margin: 36px auto;
+    margin: 36px auto !important;
     padding: 30px 15px 15px;
     border-radius: 5px;
     color: #ffffff;
