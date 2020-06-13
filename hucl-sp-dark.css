@@ -813,7 +813,7 @@ ul.table-of-contents li
     font-size: 0.9em;
 }
 /* 警告・注意など */
-.entry-content .dainger
+.dainger
 {
     position: relative;
     margin: 36px auto;
@@ -824,7 +824,7 @@ ul.table-of-contents li
     background: #000000;
     box-sizing: border-box;
 }
-.entry-content .dainger::before
+.dainger::before
 {
     position: absolute;
     top: -16px;
@@ -845,7 +845,7 @@ ul.table-of-contents li
     box-sizing: border-box;
     z-index: 1;
 }
-.entry-content .dainger::after
+.dainger::after
 {
     position: absolute;
     top: -23px;
@@ -866,7 +866,7 @@ ul.table-of-contents li
     font-size: 30px;
     box-sizing: border-box;
 }
-.entry-content .warning
+.warning
 {
     position: relative;
     margin: 36px auto;
@@ -875,7 +875,7 @@ ul.table-of-contents li
     color: #ffffff;
     background: #b9001a;
 }
-.entry-content .warning::before
+.warning::before
 {
     position: absolute;
     top: -16px;
@@ -894,7 +894,7 @@ ul.table-of-contents li
     line-height: 30px;
     z-index: 1;
 }
-.entry-content .warning::after
+.warning::after
 {
     position: absolute;
     top: -24px;
@@ -913,7 +913,7 @@ ul.table-of-contents li
     content: "\f12a";
     font-size: 30px;
 }
-.entry-content .caution
+.caution
 {
     position: relative;
     margin: 36px auto;
@@ -922,7 +922,7 @@ ul.table-of-contents li
     color: #000000;
     background-color: #f6aa00;
 }
-.entry-content .caution::before
+.caution::before
 {
     position: absolute;
     top: -16px;
@@ -941,7 +941,7 @@ ul.table-of-contents li
     line-height: 30px;
     z-index: 1;
 }
-.entry-content .caution::after
+.caution::after
 {
     position: absolute;
     top: -24px;
@@ -960,7 +960,7 @@ ul.table-of-contents li
     content: "\f071";
     font-size: 30px;
 }
-.entry-content .check
+.check
 {
     position: relative;
     margin: 36px auto;
@@ -969,19 +969,19 @@ ul.table-of-contents li
     color: #ffffff;
     background-color: #1971ff;
 }
-.entry-content .check a:not(.entry-content .embed-wrapper .check a)
+.check a
 {
     color: #ffffff;
     transition: all .4s;
     text-decoration: underline;
 }
-.entry-content .check a::after:not(.entry-content .embed-wrapper .check a::after)
+.check a::after
 {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: " \f35d";
 }
-.entry-content .check::before
+.check::before
 {
     position: absolute;
     top: -16px;
@@ -1000,7 +1000,7 @@ ul.table-of-contents li
     line-height: 30px;
     z-index: 1;
 }
-.entry-content .check::after
+.check::after
 {
     position: absolute;
     top: -24px;
@@ -1019,13 +1019,13 @@ ul.table-of-contents li
     content: "\f00c";
     font-size: 30px;
 }
-.entry-content .check .embed-wrapper,
-.entry-content .check .appreach,
-.entry-content .check .cstmreba
+.check .embed-wrapper,
+.check .appreach,
+.check .cstmreba
 {
     margin: 0px auto !important;
 }
-.entry-content .point
+.point
 {
     position: relative;
     margin: 36px auto;
@@ -1034,7 +1034,7 @@ ul.table-of-contents li
     color: #ffffff;
     background-color: #00b060;
 }
-.entry-content .point::before
+.point::before
 {
     position: absolute;
     top: -16px;
@@ -1053,7 +1053,7 @@ ul.table-of-contents li
     line-height: 30px;
     z-index: 1;
 }
-.entry-content .point::after
+.point::after
 {
     position: absolute;
     top: -24px;
@@ -1072,11 +1072,11 @@ ul.table-of-contents li
     content: "\f0a6";
     font-size: 30px;
 }
-.entry-content ul.dainger,
-.entry-content ul.warning,
-.entry-content ul.caution,
-.entry-content ul.check,
-.entry-content ul.point
+ul.dainger,
+ul.warning,
+ul.caution,
+ul.check,
+ul.point
 {
     padding-left: 3.5em;
 }
