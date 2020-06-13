@@ -1025,6 +1025,12 @@ ul.table-of-contents li
 {
     margin: 0px auto !important;
 }
+.check .embed-wrapper a::after,
+.check .appreach a::after,
+.check .cstmreba a::after
+{
+    content: none;
+}
 .point
 {
     position: relative;
