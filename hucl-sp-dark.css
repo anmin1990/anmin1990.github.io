@@ -969,13 +969,13 @@ ul.table-of-contents li
     color: #ffffff;
     background-color: #1971ff;
 }
-.entry-content .check a
+.entry-content .check a:not(.entry-content .embed-wrapper .check a)
 {
     color: #ffffff;
     transition: all .4s;
     text-decoration: underline;
 }
-.entry-content .check a::after
+.entry-content .check a::after:not(.entry-content .embed-wrapper .check a::after)
 {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
