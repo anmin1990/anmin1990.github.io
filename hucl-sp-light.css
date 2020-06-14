@@ -1084,7 +1084,7 @@ ul.caution,
 ul.check,
 ul.point
 {
-    padding-left: 3.5em;
+    padding: 30px 15px 15px 2.5em;
 }
 /*コード*/
 .entry-content pre
