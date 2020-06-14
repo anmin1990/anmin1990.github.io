@@ -972,7 +972,6 @@ ul.table-of-contents li
 .check a
 {
     color: #ffffff;
-    transition: all .4s;
     text-decoration: underline;
 }
 .check a::after
