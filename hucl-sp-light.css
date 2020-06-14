@@ -971,8 +971,7 @@ ul.table-of-contents li
 }
 .check a
 {
-    color: #dbdad8;
-    transition: all .4s;
+    color: #ffffff;
     text-decoration: underline;
 }
 .check a::after
