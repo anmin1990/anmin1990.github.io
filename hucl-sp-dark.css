@@ -2117,7 +2117,7 @@ ul.point
 }
 .entry-content .r-fuki::before
 {
-    left: -7px;
+    left: -6px;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
