@@ -2210,10 +2210,15 @@ blue
     color:#55acee;
     border:1px solid #55acee;
 }
- .share-buttons .inner .googleplus-button
+.share-buttons .inner .googleplus-button
 {
     color:#db4a39;
     border:1px solid #db4a39;
+}
+.share-buttons .inner .line-button
+{
+    color:#00b900;
+    border:1px solid #00b900;
 }
 .share-buttons .inner .pocket-button
 {
