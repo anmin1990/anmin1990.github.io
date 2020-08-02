@@ -2207,6 +2207,16 @@ blue
     box-sizing: border-box;
     text-align: center;
 }
+#coution2:after
+{
+    content: "必須";
+    visibility: visible;
+    font-weight: 500;
+}
+#coution2
+{
+    visibility: hidden;
+}
 /*share-botton*/
 .share-buttons
 {
