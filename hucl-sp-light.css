@@ -2177,6 +2177,7 @@ blue
 }
 .entry-content .mail-form td
 {
+    display: block;
     border-bottom: 0;
 }
 .entry-content .mail-form td:last-child
