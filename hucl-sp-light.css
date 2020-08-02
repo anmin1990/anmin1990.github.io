@@ -2157,7 +2157,55 @@ blue
 {
     margin-left: 30%;
 }
-
+/*mail formページ*/
+.entry-content .mail-form
+{
+    font-size: 90%;
+    box-sizing: border-box;
+}
+.entry-content .mail-form tbody
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.entry-content .mail-form tr
+{
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+.entry-content .mail-form td
+{
+    border-bottom: 0;
+}
+.entry-content .mail-form td:last-child
+{
+    border-bottom: 2px;
+}
+.entry-content .mail-form tr .title
+{
+    background: #f0f0f0;
+}
+.entry-content .mail-form tr .comment .form-textline
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+.entry-content .mail-form tr .comment .form-textbox
+{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    resize: none;
+}
+.entry-content .mail-form .submit
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
 /*share-botton*/
 .share-buttons
 {
