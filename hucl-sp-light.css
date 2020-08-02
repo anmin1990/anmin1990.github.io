@@ -2180,9 +2180,9 @@ blue
     display: block;
     border-bottom: 0;
 }
-.entry-content .mail-form td:last-child
+.entry-content .mail-form td.submit:last-child
 {
-    border-bottom: 2px;
+    border-bottom: 1px solid #ddd;
 }
 .entry-content .mail-form tr .title
 {
