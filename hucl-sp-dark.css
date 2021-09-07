@@ -587,6 +587,11 @@
     font-style: normal;
     content: '\f017';
 }
+.entry-header .date
+{
+    font-size: .9em;
+    color: #dbdad8;
+}
 .lastmod
 {
     font-family: 'Exo', sans-serif;
@@ -598,7 +603,6 @@
     padding: 0px 10px;
     margin-left: 15px;
     display: inline;
-    font-weight: 700;
 }
 .lastmod::before
 {
@@ -664,7 +668,7 @@
 /*タイトル*/
 .entry-title a
 {
-    color: #f0f0f0;
+    color: #f0f0f0 !important;
     transition: all .4s;
 }
 /*目次*/
