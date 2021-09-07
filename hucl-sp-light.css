@@ -218,6 +218,7 @@
     box-shadow: 0 4px 5px 0 rgba(0,0,0,.5);
     z-index: 12; /*ドロワーメニュー = 5 > 4*/
     overflow: hidden;
+    transition: all .4s;
 }
 #menu-bar #menu-img
 {
