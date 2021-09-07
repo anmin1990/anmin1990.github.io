@@ -179,6 +179,10 @@
 }
 
 /*メニューバー*/
+.article-bar
+{
+    display: none;
+}
 #menu-bar
 {
     font-family: 'Exo', sans-serif;
