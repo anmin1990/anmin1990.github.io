@@ -591,6 +591,7 @@
 {
     font-size: .9em;
     color: #242527;
+    transition: all .4s;
 }
 .lastmod
 {
